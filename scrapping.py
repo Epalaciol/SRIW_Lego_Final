@@ -6,13 +6,25 @@ def informacion(URLP):
     URLProducto += URLP
     pagina = requests.get(URLProducto)
     parser = BeautifulSoup(pagina.content, 'html.parser')
-    listar = parser.find('span', class_ = 'ProductPricestyles__StyledText-vmt0i4-0 ipNtqe Text__BaseText-aa2o0i-0 bVNVTl')
-    if str(type(listar)) == "<class 'NoneType'>":
+    listarPrecios = parser.find('div', class_ = 'ProductPricestyles__Wrapper-vmt0i4-1 bEUKjC')
+    listarTitulo = parser.find('h1', class_ = 'ProductOverviewstyles__NameText-sc-1a1az6h-2 cZIodu Text__BaseText-aa2o0i-0 lDuRH')
+    listarPiezas = parser.find_all('div', class_='ProductDetailsstyles__ProductAttribute-sc-16lgx7x-2 vcPOs')
+    piezas  = listarPiezas[1].find_all('span')
+    identificador = listarPiezas[3].find_all('span')
+    titulo = listarTitulo.find_all('span')
+
+    if str(type(listarPrecios)) == "<class 'NoneType'>":
         precio = 0
     else:
-        precio = listar.text.strip()
+        precio = listarPrecios.text.strip()
+        precio= precio[6:]
 
-    print(precio[6:])
+    titulo = titulo[0].text.strip()
+    piezas = piezas[1]
+    piezas = piezas.text.strip()
+    identificador = identificador[3]
+    identificador = identificador.text.strip()
+    print(identificador,' ',titulo,' ',piezas, ' ',precio)
 
 def legoOriginal():
     categorias = ['architecture','city','friends','lego-batman-sets','minecraft']
