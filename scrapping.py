@@ -6,25 +6,11 @@ def informacion(URLP):
     URLProducto += URLP
     pagina = requests.get(URLProducto)
     parser = BeautifulSoup(pagina.content, 'html.parser')
-    listarPrecios = parser.find('div', class_ = 'ProductPricestyles__Wrapper-vmt0i4-1 bEUKjC')
-    listarTitulo = parser.find('h1', class_ = 'ProductOverviewstyles__NameText-sc-1a1az6h-2 cZIodu Text__BaseText-aa2o0i-0 lDuRH')
     listarPiezas = parser.find_all('div', class_='ProductDetailsstyles__ProductAttribute-sc-16lgx7x-2 vcPOs')
     piezas  = listarPiezas[1].find_all('span')
-    identificador = listarPiezas[3].find_all('span')
-    titulo = listarTitulo.find_all('span')
-
-    if str(type(listarPrecios)) == "<class 'NoneType'>":
-        precio = 0
-    else:
-        precio = listarPrecios.text.strip()
-        precio= precio[6:]
-
-    titulo = titulo[0].text.strip()
     piezas = piezas[1]
     piezas = piezas.text.strip()
-    identificador = identificador[3]
-    identificador = identificador.text.strip()
-    print(identificador,' ',titulo,' ',piezas, ' ',precio)
+    return piezas
 
 def legoOriginal():
     categorias = ['architecture','city','friends','lego-batman-sets','minecraft']
@@ -38,7 +24,21 @@ def legoOriginal():
 
         for producto in   productos:
             URL = producto.find('a', class_= 'ProductImagestyles__ProductImageLink-sc-1sgp7uc-0 hoRfhG')['href']
-            informacion(URL)
+            nombre = producto.find('h2', class_='ProductLeafSharedstyles__Title-sc-1epu2xb-9 eNbUrI Text__BaseText-aa2o0i-0 zdErV')
+            identificador = producto.find('span', class_= 'ProductLeafSharedstyles__Code-sc-1epu2xb-8 fqevBI Text__BaseText-aa2o0i-0 fZPGmf')
+            precio = producto.find('span', class_= "ProductPricestyles__StyledText-vmt0i4-0 ipNtqe Text__BaseText-aa2o0i-0 kCXVdj")
+            print(precio)
+            precio = precio.text.strip()
+
+            indice = precio.find('Price')
+            precioFinal= precio[indice:]
+            precioFinal = precioFinal[6:]
+    
+            piezas = informacion(URL)
+            identificador = identificador.text.strip()
+            nombre = nombre.text.strip()
+            print(identificador,' ', nombre,' ', precioFinal,' ',piezas, ' ',i)
+            
         
         lista_paginas = parser.find('nav', class_='Paginationstyles__PagesNav-npbsev-2 hYNPJr')
         if str(type(lista_paginas)) == "<class 'bs4.element.Tag'>":
