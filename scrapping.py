@@ -34,7 +34,12 @@ def legoOriginal(URL, categoria):
             precioFinal= precio[indice:]
             precioFinal = precioFinal[6:]
         except  AttributeError:
-            precioFinal = 'NAN'
+            precio = producto.find('div', class_= "ProductPricestyles__Wrapper-vmt0i4-1 kDSLfg")
+            precio = precio.find_all('span')
+            precio = precio[2].text.strip()
+            indice = precio.find('Price')
+            precioFinal= precio[indice:]
+            precioFinal = precioFinal[6:]
         except:
             pass      
         
