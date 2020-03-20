@@ -45,9 +45,13 @@ def legoOriginal(URL, categoria):
         
 
         piezas = informacion(URL)
+
         identificador = identificador.text.strip()
         nombre = nombre.text.strip()
-        print(identificador,' ', nombre,' ', precioFinal,' ',piezas, ' ',categoria)
+        if (len(identificador)>=10):            
+            identificador = identificador.split('.')
+            identificador = identificador[0]
+        listaGeneral.append((identificador, nombre, precioFinal,piezas,categoria))
     
     
     lista_paginas = parser.find('nav', class_='Paginationstyles__PagesNav-npbsev-2 hYNPJr')
@@ -55,17 +59,14 @@ def legoOriginal(URL, categoria):
         paginas = lista_paginas.find_all('a', class_ ='Paginationstyles__NextLink-npbsev-10 ewFiGQ')
         for pagina in paginas:
             legoOriginal('https://www.lego.com'+pagina['href'],categoria)
-            
-    
-    print()
+          
 
-def principal ():
+if __name__ == "__main__":
     categorias = ['architecture','city','friends','lego-batman-sets','minecraft']
     for i in categorias:
         URL = 'https://www.lego.com/en-us/themes/'
         URL += i
         legoOriginal(URL,i )
-        
-
-if __name__ == "__main__":
-    principal()
+    for elemento in listaGeneral:
+        print(elemento)
+    
