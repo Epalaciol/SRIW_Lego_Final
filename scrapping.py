@@ -15,7 +15,7 @@ def informacion(URLP):
         piezas = piezas.text.strip()
     except IndexError:
         piezas = 0
-    return piezas
+    return piezas, URLProducto
 
 def legoOriginal(URL, categoria):
     page = requests.get(URL)
@@ -44,14 +44,16 @@ def legoOriginal(URL, categoria):
             pass      
         
 
-        piezas = informacion(URL)
+        listaInformacion = informacion(URL)
+        piezas = listaInformacion[0]
+        enlaceProducto =listaInformacion[1]
 
         identificador = identificador.text.strip()
         nombre = nombre.text.strip()
         if (len(identificador)>=10):            
             identificador = identificador.split('.')
             identificador = identificador[0]
-        listaGeneral.append((identificador, nombre, precioFinal,piezas,categoria))
+        listaGeneral.append((identificador, nombre, precioFinal,piezas,categoria, enlaceProducto))
     
     
     lista_paginas = parser.find('nav', class_='Paginationstyles__PagesNav-npbsev-2 hYNPJr')
