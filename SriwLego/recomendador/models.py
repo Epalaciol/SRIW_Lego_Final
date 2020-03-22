@@ -8,7 +8,7 @@ from django.contrib.auth.models import User
 
 #Lego
 class Producto(models.Model):
-    idProducto = models.CharField(max_length=50)
+    idProducto = models.CharField(max_length=50, primary_key=True)
     nombre = models.CharField(max_length=60)
     link1 = models.URLField()
     link2 = models.URLField(null = True)
