@@ -2,6 +2,7 @@
 from __future__ import unicode_literals
 
 from django.db import models
+from django.conf import settings
 from django.contrib.auth.models import User
 
 # Create your models here.
@@ -23,11 +24,17 @@ class Producto(models.Model):
 class Acertado(models.Model):
     producto = models.ForeignKey(Producto)
     acertado = models.BooleanField()
-    usuario = models.ForeignKey(User, on_delete=models.CASCADE)
+    usuario =  models.ForeignKey(
+        settings.AUTH_USER_MODEL,
+        on_delete=models.CASCADE,
+    )
 
 #Perfil generado de recomendacion del usuario
 class Perfil(models.Model):
-    usuario = models.ForeignKey(User, on_delete=models.CASCADE)
+    usuario =  models.ForeignKey(
+        settings.AUTH_USER_MODEL,
+        on_delete=models.CASCADE,
+    )
     architecture = models.IntegerField()
     city = models.IntegerField()
     friends = models.IntegerField()
@@ -41,5 +48,8 @@ class Perfil(models.Model):
 class Calificacion(models.Model):
     producto = models.ForeignKey(Producto)
     calificacion = models.IntegerField()
-    usuario = models.ForeignKey(User, on_delete=models.CASCADE)
+    usuario =  models.ForeignKey(
+        settings.AUTH_USER_MODEL,
+        on_delete=models.CASCADE,
+    )
 
