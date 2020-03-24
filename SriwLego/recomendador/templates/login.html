@@ -16,24 +16,25 @@
     <body>
         <div class="sidenav">
             <div class="login-main-text">
-            <h2>Application<br> Login Page</h2>
-            <p>Login or register from here to access.</p>
+            <h2>Bienvenido</h2>
+            <p>Inicia sesión para acceder</p>
             </div>
         </div>
         <div class="main">
             <div class="col-md-6 col-sm-12">
             <div class="login-form">
-                <form>
+                <form method="POST">
+                    {% csrf_token%}
                     <div class="form-group">
-                        <label>User Name</label>
-                        <input type="text" class="form-control" placeholder="User Name">
+                        <label>Correo</label>
+                        <input required type="email" name="username" class="form-control">
                     </div>
                     <div class="form-group">
-                        <label>Password</label>
-                        <input type="password" class="form-control" placeholder="Password">
+                        <label>Contraseña</label>
+                        <input required type="password" name="password" class="form-control">
                     </div>
-                    <button type="submit" class="btn btn-black">Login</button>
-                    <button type="submit" class="btn btn-secondary">Register</button>
+                    <button type="submit" class="btn btn-black">Iniciar Sesion</button>
+                    <a href="/register/" class="btn btn-secondary">Registrarse</a>
                 </form>
             </div>
             </div>
