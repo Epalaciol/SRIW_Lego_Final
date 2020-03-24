@@ -6,12 +6,19 @@ from django.shortcuts import render, redirect
 from django.db import IntegrityError
 from django.contrib.auth.models import User
 from django.contrib.auth.decorators import login_required
+from django.shortcuts import HttpResponseRedirect
+from django.contrib.auth import logout
 
 # Create your views here.
 
 @login_required
 def indexView(request):
     return render(request, "index.html")
+
+
+def logoutUser(request):
+   logout(request)
+   return HttpResponseRedirect('/login/')   
 
 def register(request):
     if request.method == "POST":
