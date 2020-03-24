@@ -22,7 +22,7 @@ class Producto(models.Model):
 
 #Clase que almacena los productos acertados del sistema
 class Acertado(models.Model):
-    producto = models.ForeignKey(Producto)
+    producto = models.ForeignKey(Producto, on_delete=models.CASCADE,)
     acertado = models.BooleanField()
     usuario =  models.ForeignKey(
         settings.AUTH_USER_MODEL,
@@ -46,7 +46,7 @@ class Perfil(models.Model):
 
 #Clase que asocia el producto el usuario y la calificacion otorgada
 class Calificacion(models.Model):
-    producto = models.ForeignKey(Producto)
+    producto = models.ForeignKey(Producto, on_delete=models.CASCADE,)
     calificacion = models.IntegerField()
     usuario =  models.ForeignKey(
         settings.AUTH_USER_MODEL,
