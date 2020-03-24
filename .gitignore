@@ -1,5 +1,1 @@
-
-SriwLego/recomendador/__pycache__/models.cpython-37.pyc
-SriwLego/recomendador/__pycache__/__init__.cpython-37.pyc
-SriwLego/SriwLego/__pycache__/__init__.cpython-37.pyc
-SriwLego/SriwLego/__pycache__/settings.cpython-37.pyc
+*.pyc

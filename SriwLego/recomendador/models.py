@@ -16,7 +16,7 @@ class Producto(models.Model):
     categoria =  models.CharField(max_length=50)
     precio = models.IntegerField()
     nPiezas = models.IntegerField()
-    observaciones = models.TextField()
+    observaciones = models.TextField(null = True)
     estado = models.BooleanField()
 
 
