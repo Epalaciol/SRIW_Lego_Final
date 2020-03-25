@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'nav.css' %}">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+    
+    <title>Ips</title>
+</head>
+<body>
+    
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <a id="to-top" class="btn btn-lg btn-dark" href="#top">
+        <span class="sr-only">Toggle to Top Navigation</span>
+        <i class="fa fa-chevron-up"></i>
+    </a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-danger pull-right hidden-md hidden-lg toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="/">Bienvenido <strong>{{user.first_name}}</strong></a>
+            </li>
+            <li>
+                <a href="/" title="Lista legos">Lista legos</a>
+            </li>
+            <li>
+                <a href="/recomendador/" title="Recomendador">Recomendador</a>
+            </li>
+            <li>
+                <a href="/perfil/" title="Perfil">Perfil</a>
+            </li>
+            <li>
+                <a href="/logout/" title="Cerrar sesión">Cerrar sesión</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <header class="page-header">
+            <h1 class="page-title" title="Legos">Recomendación</h1>
+        </header>
+        <div class="row">
+            <div class="col">
+
+                <form method="POST">
+                    <table class="table table-hover">
+                        <thead>
+                        <tr>
+                            <th scope="col">Id Producto</th>
+                            <th scope="col">Nombre</th>
+                            <th scope="col">Calificación</th>
+                            <th scope="col">Ver más</th>
+                            <th scope="col">Calificar</th>
+                            <th scope="col">¿Te gusto?</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td scope="row">0001</td>
+                            <td>Lego</td>
+                            <td>-</td>
+                            <td><button class="btn btn-primary" title="Ver Mas" data-toggle="modal"  data-target='#verMas'>+</button></td>
+                            <td><button class="btn btn-success" title="Calificar" data-toggle="modal"  data-target='#calificar'>Calificar</button></td>
+                            <td>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                    <label class="form-check-label" for="inlineRadio1">Si</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                    <label class="form-check-label" for="inlineRadio2">No</label>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id='calificar' tabIndex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title"><b>Calificar ...nombre</b></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form id="calificaciones" method="POST">
+                        <div class="form-group">
+                            <label>* Id Producto:</label>
+                            <input name="idProducto" type="text" required disabled
+                                class="form-control"
+                                />
+                        </div>
+                        <div class="form-group">
+                            <label>* Calificacion(0 a 10):</label>
+                            <input name="calificacion" type="number" required
+                                class="form-control"
+                                min="0" max="10"
+                                />
+                        </div>
+   
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" form="calificaciones" class="btn btn-primary">Enviar</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id='verMas' tabIndex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title"><b> ...nombre</b></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 ml-auto"><b>Id Producto</b></div>
+                            <div class="col-md-6 ml-auto">...</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 ml-auto"><b>Nombre</b></div>
+                            <div class="col-md-6 ml-auto">...</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 ml-auto"><b>Link 1</b></div>
+                            <div class="col-md-6 ml-auto">...</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 ml-auto"><b>Link 2</b></div>
+                            <div class="col-md-6 ml-auto">...</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 ml-auto"><b>Categoria</b></div>
+                            <div class="col-md-6 ml-auto">...</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 ml-auto"><b>Precio</b></div>
+                            <div class="col-md-6 ml-auto">...</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 ml-auto"><b># Piezas</b></div>
+                            <div class="col-md-6 ml-auto">...</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 ml-auto"><b>Observaciones</b></div>
+                            <div class="col-md-6 ml-auto">...</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script src="{% static 'nav.js' %}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.js"></script>
+</body>
+</html>

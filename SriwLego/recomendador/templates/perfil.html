@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'nav.css' %}">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+    
+    <title>Ips</title>
+</head>
+<body>
+    
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <a id="to-top" class="btn btn-lg btn-dark" href="#top">
+        <span class="sr-only">Toggle to Top Navigation</span>
+        <i class="fa fa-chevron-up"></i>
+    </a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-danger pull-right hidden-md hidden-lg toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="/">Bienvenido <strong>{{user.first_name}}</strong></a>
+            </li>
+            <li>
+                <a href="/" title="Lista legos">Lista legos</a>
+            </li>
+            <li>
+                <a href="/recomendador/" title="Recomendador">Recomendador</a>
+            </li>
+            <li>
+                <a href="/perfil/" title="Perfil">Perfil</a>
+            </li>
+            <li>
+                <a href="/logout/" title="Cerrar sesión">Cerrar sesión</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <header class="page-header">
+            <h1 class="page-title" title="Legos">Perfil</h1>
+        </header>
+        <div class="row">
+            <div class="col-6">
+                <div class="row">
+                    <div class="col-md-6 ml-auto"><b>Architecture</b></div>
+                    <div class="col-md-6 ml-auto">...</div>
+                </div>
+                
+            </div>
+            <div class="col-6">
+                <div class="row">
+                    <div class="col-md-6 ml-auto"><b>City</b></div>
+                    <div class="col-md-6 ml-auto">...</div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <div class="row">
+                    <div class="col-md-6 ml-auto"><b>Friends</b></div>
+                    <div class="col-md-6 ml-auto">...</div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="row">
+                    <div class="col-md-6 ml-auto"><b>Batman</b></div>
+                    <div class="col-md-6 ml-auto">...</div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <div class="row">
+                    <div class="col-md-6 ml-auto"><b>Minecraft</b></div>
+                    <div class="col-md-6 ml-auto">...</div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="row">
+                    <div class="col-md-6 ml-auto"><b>Precio</b></div>
+                    <div class="col-md-6 ml-auto">...</div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 offset-3">
+                <div class="row">
+                    <div class="col-md-6 ml-auto"><b># Piezas</b></div>
+                    <div class="col-md-6 ml-auto">...</div>
+                </div>
+            </div>
+        </div>
+    
+    
+    
+    
+    
+            
+        
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script src="{% static 'nav.js' %}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.js"></script>
+</body>
+</html>

@@ -32,3 +32,9 @@ def register(request):
                 return render(request, "register.html")
 
     return render(request, "register.html")
+
+def recomendador(request):
+    return render(request, "recomendacion.html")
+
+def perfil(request):
+    return render(request, "perfil.html")

@@ -574,9 +574,6 @@ Custom Bootstrap Form Styling
     background: #ffffff;
     color: #333333;
 }
-.container-form .nav-tabs.nav-justified > li > a:hover, .container-form .nav-tabs.nav-justified > li > a:focus {
-    background: #de2f18;
-}
 .tabs-login {
     background: #ffffff;
     border: medium none;
@@ -600,53 +597,6 @@ Custom Bootstrap Form Styling
     -webkit-box-shadow: inset 0 0 0 2px #fff;
     -moz-box-shadow: inset 0 0 0 2px #fff;
     box-shadow: inset 0 0 0 2px #fff;
-}
-form {
-    background: #d9534f;
-    margin-top: -2%;
-    width: 100%}
-label {
-    color: #fff;
-}
-.form-control {
-    background-color: #c9302c !important;
-    background-image: none;
-    border: none;
-    border-radius: 0;
-    box-shadow: 0 1px 1px rgba(0,  0,  0,  0.075) inset;
-    display: block;
-    font-size: 14px;
-    height: 34px;
-    line-height: 1.42857;
-    padding: 6px 12px;
-    transition: border-color 0.15s ease-in-out 0s,  box-shadow 0.15s ease-in-out 0s;
-    width: 100%;
-    color: #inherit !important;
-    -webkit-transition: all .8s ease-in-out;
-    -moz-transition: all .8s ease-in-out;
-    -ms-transition: all .8s ease-in-out;
-    transition: all .8s ease-in-out;
-    outline: none;
-}
-.form-control:hover {
-    border-color: rgba(255,  00,  00,  0.75);
-    background-color: #990000 !important;
-    background-image: none;
-    color: #inherit !important;
-    color: #fff;
-    -webkit-box-shadow: 0 0 10px rgba(255,  00,  00,  0.8);
-    -moz-box-shadow: 0 0 10px rgba(255,  00,  00,  0.8);
-    box-shadow: 0 0 10px rgba(255,  00,  00,  0.8);
-}
-.form-control:focus {
-    border-color: rgba(22,  22,  22,  .75);
-    outline: 0;
-    outline: thin dotted 9;
-    background: #fff !important;
-    color: #333 !important;
-    -webkit-box-shadow: 0 0 8px rgba(22,  22,  22,  .6);
-    -moz-box-shadow: 0 0 8px rgba(22,  22,  22,  .6);
-    box-shadow: 0 0 8px rgba(22,  22,  22,  .6);
 }
 ::-webkit-input-placeholder {
     color: #fff !important;
