@@ -21,6 +21,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 conteo=0
 URLBase = 'https://www.target.com'
+URLBaseLego =  'https://www.lego.com'
 
 
 ##clase usada para almacenar los valores de los productos
@@ -146,10 +147,91 @@ def legoOriginal(argumentos):
     except:
         pass
         #system("taskkill /f /im  firefox.exe")
- 
 
+
+def informacionOficial(URLP):
+    global URLBaseLego
+    URLProducto = URLBaseLego 
+    URLProducto += URLP
+    pagina = requests.get(URLProducto)
+    parser = BeautifulSoup(pagina.content, 'html.parser')
+    listarPiezas = parser.find_all('div', class_='ProductDetailsstyles__ProductAttribute-sc-16lgx7x-2 vcPOs')
+    try:
+        piezas  = listarPiezas[1].find_all('span')
+        piezas = piezas[1]
+        piezas = piezas.text.strip()
+    except IndexError:
+        piezas = 0
+    return piezas, URLProducto
+
+
+def legoOficial(listaLego):
+    global URLBaseLego
+
+    URL = URLBaseLego
+    URL += listaLego
+    categoria = listaLego[14:]
+    try:
+        categoria = categoria.split('?')
+        categoria = categoria[0]
+    except:
+        pass
+    page = requests.get(URL)
+    parser = BeautifulSoup(page.content, 'html.parser')
+    lista_productos = parser.find('div', class_='ProductListingsstyles__Content-sc-1taio5c-2 iHRYuT')
+    productos = lista_productos.find_all('div', class_='ProductLeafSharedstyles__Wrapper-sc-1epu2xb-0 hIVRQm')
+    listaGeneral =[]
+
+    for producto in   productos:
+        URL = producto.find('a', class_= 'ProductImagestyles__ProductImageLink-sc-1sgp7uc-0 hoRfhG')['href']
+        nombre = producto.find('h2', class_='ProductLeafSharedstyles__Title-sc-1epu2xb-9 eNbUrI Text__BaseText-aa2o0i-0 zdErV')
+        nombre = nombre.find('span', class_='Markup__StyledMarkup-ar1l9g-0 bTYWAd')
+        identificador = producto.find('span', class_= 'ProductLeafSharedstyles__Code-sc-1epu2xb-8 fqevBI Text__BaseText-aa2o0i-0 fZPGmf')
+        precio = producto.find('span', class_= "ProductPricestyles__StyledText-vmt0i4-0 ipNtqe Text__BaseText-aa2o0i-0 kCXVdj")
+        try:
+            precio = precio.text.strip()
+            indice = precio.find('Price')
+            precioFinal= precio[indice:]
+            precioFinal = precioFinal[6:]
+        except  AttributeError:
+            precio = producto.find('div', class_= "ProductPricestyles__Wrapper-vmt0i4-1 kDSLfg")
+            precio = precio.find_all('span')
+            precio = precio[2].text.strip()
+            indice = precio.find('Price')
+            precioFinal= precio[indice:]
+            precioFinal = precioFinal[6:]
+        except:
+            pass      
+        
+
+        listaInformacion = informacionOficial(URL)
+        piezas = listaInformacion[0]
+        enlaceProducto =listaInformacion[1]
+
+        identificador = identificador.text.strip()
+        nombre = nombre.text.strip()
+        if (len(identificador)>=10):            
+            identificador = identificador.split('.')
+            identificador = identificador[0]
+
+        #print(identificador, nombre, enlaceProducto,categoria,precioFinal,piezas)
+        listaGeneral.append((identificador, nombre, enlaceProducto,categoria,precioFinal,piezas ))
+    
+    
+    lista_paginas = parser.find('nav', class_='Paginationstyles__PagesNav-npbsev-2 hYNPJr')
+    if str(type(lista_paginas)) == "<class 'bs4.element.Tag'>":
+        paginas = lista_paginas.find_all('a', class_ ='Paginationstyles__NextLink-npbsev-10 ewFiGQ')
+        for pagina in paginas:
+            listaGeneral.extend(legoOficial(pagina['href']))
+
+    return listaGeneral
 
 if __name__ == "__main__":
+
+    listaCambios = ProductosDjdango.objects.all()
+    for articulo in listaCambios:
+        articulo.estado = False
+        articulo.save()
 
     tiempo_inicial = time() 
 
@@ -185,6 +267,29 @@ if __name__ == "__main__":
         print(len(lista_productos))
         prod= ProductosDjdango(idProducto = str(producto.codigo), nombre =producto.nombre, link1 = producto.URLBase+producto.URLResto, link2 = 'no disponible aun', categoria = producto.categoria, precio = producto.precio_venta, nPiezas = producto.piezas,observaciones = 'aun no disponible', estado =True)
         prod.save()
+
+    categoriasOficial = ['/en-us/themes/architecture','/en-us/themes/city','/en-us/themes/friends','/en-us/themes/lego-batman-sets','/en-us/themes/minecraft']
+
+    poolLego = Pool(cpu_count()*8)
+
+    with poolLego as p:
+        listasOficial = p.map(legoOficial,categoriasOficial)
+    
+    lista_productosOficial=[]
+    categoriasOficial=[]
+    for elemento in listasOficial:
+        for element in elemento:
+            lista_productosOficial.append(element)
+    
+    for productoOficial in lista_productosOficial:
+        try:
+            prod = ProductosDjdango.objects.get(idProducto = productoOficial[0])
+            prod.link2 = productoOficial[2]
+            prod.save()
+        except:
+            prod= ProductosDjdango(idProducto = str(productoOficial[0]), nombre =productoOficial[1], link2 = productoOficial[2], categoria = productoOficial[3], precio = float(productoOficial[4]), nPiezas = productoOficial[5],observaciones = 'aun no disponible', estado =True)
+            prod.save()
+    
 
     tiempo_final = time() 
     tiempo_ejecucion = tiempo_final - tiempo_inicial
