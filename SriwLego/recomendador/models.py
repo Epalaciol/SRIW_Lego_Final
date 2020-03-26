@@ -40,7 +40,7 @@ class Perfil(models.Model):
     friends = models.IntegerField()
     batman = models.IntegerField()
     minecraft = models.IntegerField()
-    precio = models.IntegerField()
+    precio = models.FloatField()
     nPiezas = models.IntegerField()
 
 

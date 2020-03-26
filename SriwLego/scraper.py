@@ -99,7 +99,7 @@ def legoOriginal(argumentos):
         driver = webdriver.Firefox(options=options)
         driver.get(URL)
         driver.find_element_by_xpath('//body').send_keys(Keys.CONTROL+Keys.END)
-        sleep(10)
+        sleep(15)
 
         page = driver.page_source
 
@@ -183,7 +183,7 @@ if __name__ == "__main__":
         #print(producto.to_print())
         print("cantidad objetos creados")
         print(len(lista_productos))
-        prod= ProductosDjdango(idProducto = str(producto.codigo), nombre =producto.nombre, link1 = producto.URLBase+producto.URLResto, link2 = 'no disponible aun', categoria = producto.categoria, precio = int(producto.precio_venta), nPiezas = producto.piezas,observaciones = 'aun no disponible', estado =True)
+        prod= ProductosDjdango(idProducto = str(producto.codigo), nombre =producto.nombre, link1 = producto.URLBase+producto.URLResto, link2 = 'no disponible aun', categoria = producto.categoria, precio = producto.precio_venta, nPiezas = producto.piezas,observaciones = 'aun no disponible', estado =True)
         prod.save()
 
     tiempo_final = time() 
