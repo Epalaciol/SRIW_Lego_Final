@@ -1,0 +1,1063 @@
+1585188073326	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\quipo\\AppData\\Local\\Temp\\rust_mozprofileLdfn5p"
+*** You are running in headless mode.
+1585188079172	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1585188081659	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1585188081659	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1585188081660	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1585188081660	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1585188092011	Marionette	INFO	Listening on port 3511
+1585188093099	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://assets.targetimg1.com/ssx/ssx.mod.js?seed=AABRkRRxAQAA1t696_cE1c171s0u3eAgF0C7_DQPhWexz42qNI0Kow5Z56E8&X-GyJwza5Z--z=q, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ssx/ssx.mod.js?seed=AABRkRRxAQAA1t696_cE1c171s0u3eAgF0C7_DQPhWexz42qNI0Kow5Z56E8&X-GyJwza5Z--z=q, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ssx/ssx.mod.js?seed=AABRkRRxAQAA1t696_cE1c171s0u3eAgF0C7_DQPhWexz42qNI0Kow5Z56E8&X-GyJwza5Z--z=q, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ssx/ssx.mod.js?seed=AABRkRRxAQAA1t696_cE1c171s0u3eAgF0C7_DQPhWexz42qNI0Kow5Z56E8&X-GyJwza5Z--z=q, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1585188114462	Marionette	INFO	Stopped listening on port 3511
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1585188238798	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\quipo\\AppData\\Local\\Temp\\rust_mozprofilea4vizu"
+*** You are running in headless mode.
+1585188240580	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1585188242454	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1585188242454	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1585188242455	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1585188242455	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1585188247174	Marionette	INFO	Listening on port 3653
+1585188247645	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ssx/ssx.mod.js?seed=AABRkRRxAQAA1t696_cE1c171s0u3eAgF0C7_DQPhWexz42qNI0Kow5Z56E8&X-GyJwza5Z--z=q, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ssx/ssx.mod.js?seed=AABRkRRxAQAA1t696_cE1c171s0u3eAgF0C7_DQPhWexz42qNI0Kow5Z56E8&X-GyJwza5Z--z=q, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ssx/ssx.mod.js?seed=AABRkRRxAQAA1t696_cE1c171s0u3eAgF0C7_DQPhWexz42qNI0Kow5Z56E8&X-GyJwza5Z--z=q, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ssx/ssx.mod.js?seed=AABRkRRxAQAA1t696_cE1c171s0u3eAgF0C7_DQPhWexz42qNI0Kow5Z56E8&X-GyJwza5Z--z=q, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: , line 0: uncaught exception: Object
+1585188268611	Marionette	INFO	Stopped listening on port 3653
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 433))
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1585188549533	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\quipo\\AppData\\Local\\Temp\\rust_mozprofileepkH6e"
+*** You are running in headless mode.
+1585188551253	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1585188553603	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1585188553604	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1585188553604	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1585188553605	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1585188559131	Marionette	INFO	Listening on port 3795
+1585188559246	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ssx/ssx.mod.js?seed=AABRkRRxAQAA1t696_cE1c171s0u3eAgF0C7_DQPhWexz42qNI0Kow5Z56E8&X-GyJwza5Z--z=q, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ssx/ssx.mod.js?seed=AABRkRRxAQAA1t696_cE1c171s0u3eAgF0C7_DQPhWexz42qNI0Kow5Z56E8&X-GyJwza5Z--z=q, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ssx/ssx.mod.js?seed=AABRkRRxAQAA1t696_cE1c171s0u3eAgF0C7_DQPhWexz42qNI0Kow5Z56E8&X-GyJwza5Z--z=q, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ssx/ssx.mod.js?seed=AABRkRRxAQAA1t696_cE1c171s0u3eAgF0C7_DQPhWexz42qNI0Kow5Z56E8&X-GyJwza5Z--z=q, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: , line 0: uncaught exception: Object
+1585188584232	Marionette	INFO	Stopped listening on port 3795
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 433))
+1585188882486	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\quipo\\AppData\\Local\\Temp\\rust_mozprofilebAiR5B"
+*** You are running in headless mode.
+1585188884016	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1585188885922	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1585188885923	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1585188885923	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1585188885923	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1585188890742	Marionette	INFO	Listening on port 4009
+1585188890929	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ssx/ssx.mod.js?seed=AABRkRRxAQAA1t696_cE1c171s0u3eAgF0C7_DQPhWexz42qNI0Kow5Z56E8&X-GyJwza5Z--z=q, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ssx/ssx.mod.js?seed=AABRkRRxAQAA1t696_cE1c171s0u3eAgF0C7_DQPhWexz42qNI0Kow5Z56E8&X-GyJwza5Z--z=q, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ssx/ssx.mod.js?seed=AABRkRRxAQAA1t696_cE1c171s0u3eAgF0C7_DQPhWexz42qNI0Kow5Z56E8&X-GyJwza5Z--z=q, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ssx/ssx.mod.js?seed=AABRkRRxAQAA1t696_cE1c171s0u3eAgF0C7_DQPhWexz42qNI0Kow5Z56E8&X-GyJwza5Z--z=q, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: , line 0: uncaught exception: Object
+1585188911792	Marionette	INFO	Stopped listening on port 4009
+1585189015770	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\quipo\\AppData\\Local\\Temp\\rust_mozprofile2SQd73"
+*** You are running in headless mode.
+1585189017642	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1585189019684	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1585189019685	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1585189019685	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1585189019685	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1585189024088	Marionette	INFO	Listening on port 4149
+1585189024586	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ssx/ssx.mod.js?seed=AABRkRRxAQAA1t696_cE1c171s0u3eAgF0C7_DQPhWexz42qNI0Kow5Z56E8&X-GyJwza5Z--z=q, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ssx/ssx.mod.js?seed=AABRkRRxAQAA1t696_cE1c171s0u3eAgF0C7_DQPhWexz42qNI0Kow5Z56E8&X-GyJwza5Z--z=q, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ssx/ssx.mod.js?seed=AABRkRRxAQAA1t696_cE1c171s0u3eAgF0C7_DQPhWexz42qNI0Kow5Z56E8&X-GyJwza5Z--z=q, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ssx/ssx.mod.js?seed=AABRkRRxAQAA1t696_cE1c171s0u3eAgF0C7_DQPhWexz42qNI0Kow5Z56E8&X-GyJwza5Z--z=q, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: , line 0: uncaught exception: Object
+1585189044193	Marionette	INFO	Stopped listening on port 4149
+1585190852086	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\quipo\\AppData\\Local\\Temp\\rust_mozprofile8y1EmV"
+*** You are running in headless mode.
+1585190853614	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1585190855740	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1585190855740	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1585190855741	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1585190855741	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1585190860557	Marionette	INFO	Listening on port 5580
+1585190860908	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ssx/ssx.mod.js?seed=AEDIrBRxAQAAEN_ZD5WLbSufZovBknx7guIMYWddNvR65APHLxhjSBNx7WmQ&X-GyJwza5Z--z=q, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ssx/ssx.mod.js?seed=AEDIrBRxAQAAEN_ZD5WLbSufZovBknx7guIMYWddNvR65APHLxhjSBNx7WmQ&X-GyJwza5Z--z=q, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ssx/ssx.mod.js?seed=AEDIrBRxAQAAEN_ZD5WLbSufZovBknx7guIMYWddNvR65APHLxhjSBNx7WmQ&X-GyJwza5Z--z=q, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ssx/ssx.mod.js?seed=AEDIrBRxAQAAEN_ZD5WLbSufZovBknx7guIMYWddNvR65APHLxhjSBNx7WmQ&X-GyJwza5Z--z=q, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: , line 0: uncaught exception: Object
+1585190879843	Marionette	INFO	Stopped listening on port 5580
+1585190979897	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\quipo\\AppData\\Local\\Temp\\rust_mozprofile3ttdI4"
+*** You are running in headless mode.
+1585190981352	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1585190983231	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1585190983231	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1585190983232	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1585190983232	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1585190987876	Marionette	INFO	Listening on port 5711
+1585190988163	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ssx/ssx.mod.js?seed=AEDIrBRxAQAAEN_ZD5WLbSufZovBknx7guIMYWddNvR65APHLxhjSBNx7WmQ&X-GyJwza5Z--z=q, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ssx/ssx.mod.js?seed=AEDIrBRxAQAAEN_ZD5WLbSufZovBknx7guIMYWddNvR65APHLxhjSBNx7WmQ&X-GyJwza5Z--z=q, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ssx/ssx.mod.js?seed=AEDIrBRxAQAAEN_ZD5WLbSufZovBknx7guIMYWddNvR65APHLxhjSBNx7WmQ&X-GyJwza5Z--z=q, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ssx/ssx.mod.js?seed=AEDIrBRxAQAAEN_ZD5WLbSufZovBknx7guIMYWddNvR65APHLxhjSBNx7WmQ&X-GyJwza5Z--z=q, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1585191010340	Marionette	INFO	Stopped listening on port 5711
+1585191376452	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\quipo\\AppData\\Local\\Temp\\rust_mozprofile1oKnP6"
+*** You are running in headless mode.
+1585191378214	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1585191380145	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1585191380146	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1585191380146	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1585191380146	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1585191384713	Marionette	INFO	Listening on port 5853
+1585191384749	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ssx/ssx.mod.js?seed=AEDIrBRxAQAAEN_ZD5WLbSufZovBknx7guIMYWddNvR65APHLxhjSBNx7WmQ&X-GyJwza5Z--z=q, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ssx/ssx.mod.js?seed=AEDIrBRxAQAAEN_ZD5WLbSufZovBknx7guIMYWddNvR65APHLxhjSBNx7WmQ&X-GyJwza5Z--z=q, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ssx/ssx.mod.js?seed=AEDIrBRxAQAAEN_ZD5WLbSufZovBknx7guIMYWddNvR65APHLxhjSBNx7WmQ&X-GyJwza5Z--z=q, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ssx/ssx.mod.js?seed=AEDIrBRxAQAAEN_ZD5WLbSufZovBknx7guIMYWddNvR65APHLxhjSBNx7WmQ&X-GyJwza5Z--z=q, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: , line 0: uncaught exception: Object
+1585191405299	Marionette	INFO	Stopped listening on port 5853
+1585191821663	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\quipo\\AppData\\Local\\Temp\\rust_mozprofilegMdv7d"
+*** You are running in headless mode.
+1585191824564	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1585191828457	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1585191828457	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1585191828458	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1585191828458	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: "Could not write session state file " (new Error("_initWorker called too early! Please read the session file from disk first.", "resource:///modules/sessionstore/SessionFile.jsm", 375)) "_initWorker/<@resource:///modules/sessionstore/SessionFile.jsm:375:15\n_initWorker@resource:///modules/sessionstore/SessionFile.jsm:368:12\n_postToWorker@resource:///modules/sessionstore/SessionFile.jsm:410:16\nwrite@resource:///modules/sessionstore/SessionFile.jsm:448:24\nwrite@resource:///modules/sessionstore/SessionFile.jsm:75:32\n_writeState@resource:///modules/sessionstore/SessionSaver.jsm:360:24\n_saveState@resource:///modules/sessionstore/SessionSaver.jsm:294:17\n_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:344:10\nsaveStateAsyncWhenIdle@resource:///modules/sessionstore/SessionSaver.jsm:191:14\ncallback@resource://gre/modules/Timer.jsm:127:16\n"
+1585191844647	Marionette	INFO	Listening on port 6019
+1585191844739	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5319247115&moatClientLevel4=138306051644&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=btf&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5319247115&moatClientLevel4=138306051644&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=btf&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5319247115&moatClientLevel4=138306051644&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=btf&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 433))
+1644&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=btf&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5325638803&moatClientLevel4=138306435211&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=ss&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5325638803&moatClientLevel4=138306435211&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=ss&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5325638803&moatClientLevel4=138306435211&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=ss&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5325638803&moatClientLevel4=138306435211&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=ss&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5318324105&moatClientLevel4=138305330905&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block2&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5318324105&moatClientLevel4=138305330905&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block2&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5318324105&moatClientLevel4=138305330905&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block2&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5318324105&moatClientLevel4=138305330905&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block2&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5318324105&moatClientLevel4=138305330905&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block3&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5318324105&moatClientLevel4=138305330905&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block3&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5318324105&moatClientLevel4=138305330905&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block3&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5318324105&moatClientLevel4=138305330905&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block3&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5319247115&moatClientLevel4=138306433546&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block1&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5319247115&moatClientLevel4=138306433546&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block1&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5319247115&moatClientLevel4=138306433546&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block1&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5319247115&moatClientLevel4=138306433546&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block1&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: , line 0: TypeError: NetworkError when attemconsole.error: (new Error(1585191959493	Marionette	INFO	Stopped listening on port 6014
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 433))
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+Data\\Local\\Temp\\rust_mozprofile1N8J6Q"
+*** You are running in headless mode.
+1585191986570	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1585191990327	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1585191990327	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telem1585191992525	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:1585191999688	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1585191999689	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozill1585192007956	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1585192007957	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1585192007957	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+15console.error: "Could not write session state file " (new Error("_initWorker called too early! Please read the session file from disk first.", "resource:///modules/sessiJavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: "Could not write session state file " (new Error("_initWorker called too early! Please read the session file from disk first.", "resource:///modules/sessionstore/SessionFile.jsm", 375)) "_initWorker/<@resource:///modules/sessionstore/SesJavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: WebGL warning: <Create>: Can'JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: Failed JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5319247115&moatClientLevel4=138306051644&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=btf&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5319247115&moatClientLevel4=138306051644&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=btf&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5319247115&moatClientLevel4=138306051644&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=btf&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5319247115&moatClientLevel4=138306051644&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=btf&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5329895932&moatClientLevel4=138306587553&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=ss&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5329895932&moatClientLevel4=138306587553&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=ss&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5329895932&moatClientLevel4=138306587553&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=ss&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5329895932&moatClientLevel4=138306587553&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=ss&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5325638803&moatClientLevel4=138306435211&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block1&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5325638803&moatClientLevel4=138306435211&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block1&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5325638803&moatClientLevel4=138306435211&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block1&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5325638803&moatClientLevel4=138306435211&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block1&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1585192075240	Marionette	INFO	Stopped listening on port 6609
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x580006,name=PHttpChannel::Msg_Redirect2Verify) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x37012E,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x37012E,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x58000D,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x58000D,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x58000D,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x58000D,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x58000D,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x58000D,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+ion: mozillaAddons
+1585192072959	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1585192072960	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1585192072960	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1585192080126	Marionette	INFO	Listening on port 7041
+1585192080579	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: Failed 1585192090973	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1585192095189	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1585192095190	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1585192095190	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1585192095190	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: "Could not write session state file " (new Error("_initWorker called too early! Please read the session file from disk first.", "resource:///modules/sessionstore/SessionFile.jsm", 375)) "_initWorker/<@resource:///modules/sessionstore/SessionFile.jsm:375:15\n_initWorker@resource:///modules/sessionstore/SessionFile.jsm:368:12\n_postToWorker@resource:///modules/sessionstore/SessionFile.jsm:410:16\nwrite@resource:///modules/sessionstore/SessionFile.jsm:448:24\nwrite@resource:///modules/sessionstore/SessionFile.jsm:75:32\n_writeState@resource:///modules/sessionstore/SessionSaver.jsm:360:24\n_saveState@resource:///modules/sessionstore/SessionSaver.jsm:294:17\n_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:344:10\nsaveStateAsyncWhenIdle@resource:///modules/sessionstore/SessionSaver.jsm:191:14\ncallback@resource://gre/modules/Timer.jsm:127:16\n"
+1585192102672	Marionette	INFO	Listening on port 7105
+1585192103271	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5325638803&moatClientLevel4=138306051462&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=btf&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5325638803&moatClientLevel4=138306051462&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=btf&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5325638803&moatClientLevel4=138306051462&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=btf&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5325638803&moatClientLevel4=138306051462&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=btf&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5329895932&moatClientLevel4=138306587553&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block1&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5329895932&moatClientLevel4=138306587553&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block1&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5329895932&moatClientLevel4=138306587553&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block1&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5329895932&moatClientLevel4=138306587553&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block1&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5319247115&moatClientLevel4=138306433546&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=ss&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5319247115&moatClientLevel4=138306433546&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=ss&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5319247115&moatClientLevel4=138306433546&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=ss&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5319247115&moatClientLevel4=138306433546&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=ss&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5318324105&moatClientLevel4=138305330905&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block2&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5318324105&moatClientLevel4=138305330905&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block2&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5318324105&moatClientLevel4=138305330905&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block2&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5318324105&moatClientLevel4=138305330905&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block2&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5325638803&moatClientLevel4=138306435211&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block3&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5325638803&moatClientLevel4=138306435211&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block3&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5325638803&moatClientLevel4=138306435211&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block3&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5325638803&moatClientLevel4=138306435211&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block3&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1585192125527	Marionette	INFO	Stopped listening on port 7105
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1585192135701	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\quipo\\AppData\\Local\\Temp\\rust_mozprofile8TAy1y"
+*** You are running in headless mode.
+1585192137848	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1585192140665	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1585192140665	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1585192140666	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1585192140666	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1585192145573	Marionette	INFO	Listening on port 7297
+1585192145650	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5325638803&moatClientLevel4=138306051462&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=btf&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5325638803&moatClientLevel4=138306051462&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=btf&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5325638803&moatClientLevel4=138306051462&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=btf&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5325638803&moatClientLevel4=138306051462&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=btf&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: , line 0: uncaught exception: The prodid value must be within 1 to 50 characters.
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5319247115&moatClientLevel4=138306433546&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block1&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5319247115&moatClientLevel4=138306433546&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block1&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5319247115&moatClientLevel4=138306433546&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block1&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5319247115&moatClientLevel4=138306433546&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block1&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5318324105&moatClientLevel4=138305330905&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=ss&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5318324105&moatClientLevel4=138305330905&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=ss&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5318324105&moatClientLevel4=138305330905&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=ss&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5318324105&moatClientLevel4=138305330905&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=ss&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5325638803&moatClientLevel4=138306435211&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block2&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5325638803&moatClientLevel4=138306435211&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block2&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5325638803&moatClientLevel4=138306435211&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block2&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5325638803&moatClientLevel4=138306435211&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block2&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5325638803&moatClientLevel4=138306435211&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block3&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5325638803&moatClientLevel4=138306435211&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block3&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5325638803&moatClientLevel4=138306435211&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block3&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5325638803&moatClientLevel4=138306435211&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block3&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1585192163998	Marionette	INFO	Stopped listening on port 7297
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[Parent 3312, Gecko_IOThread] WARNING: file z:/task_1583751780/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+1585192170743	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\quipo\\AppData\\Local\\Temp\\rust_mozprofile072xxx"
+*** You are running in headless mode.
+1585192172262	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1585192173990	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1585192173990	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1585192173990	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1585192173991	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1585192178464	Marionette	INFO	Listening on port 7419
+1585192178489	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5318324105&moatClientLevel4=138305330914&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=btf&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5318324105&moatClientLevel4=138305330914&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=btf&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5318324105&moatClientLevel4=138305330914&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=btf&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5318324105&moatClientLevel4=138305330914&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=btf&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5325638803&moatClientLevel4=138306435211&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block1&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5325638803&moatClientLevel4=138306435211&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block1&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5325638803&moatClientLevel4=138306435211&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block1&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5325638803&moatClientLevel4=138306435211&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block1&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5318324105&moatClientLevel4=138305330905&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=ss&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5318324105&moatClientLevel4=138305330905&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=ss&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5318324105&moatClientLevel4=138305330905&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=ss&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5318324105&moatClientLevel4=138305330905&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=ss&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5329895932&moatClientLevel4=138306587553&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block2&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5329895932&moatClientLevel4=138306587553&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block2&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5329895932&moatClientLevel4=138306587553&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block2&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5329895932&moatClientLevel4=138306587553&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block2&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1585192196995	Marionette	INFO	Stopped listening on port 7419
+[Parent 11104, Gecko_IOThread] WARNING: file z:/task_1583751780/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1585192436154	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\quipo\\AppData\\Local\\Temp\\rust_mozprofilemKkueb"
+*** You are running in headless mode.
+1585192437642	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1585192439694	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1585192439694	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1585192439695	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1585192439695	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: "Could not write session state file " (new Error("_initWorker called too early! Please read the session file from disk first.", "resource:///modules/sessionstore/SessionFile.jsm", 375)) "_initWorker/<@resource:///modules/sessionstore/SessionFile.jsm:375:15\n_initWorker@resource:///modules/sessionstore/SessionFile.jsm:368:12\n_postToWorker@resource:///modules/sessionstore/SessionFile.jsm:410:16\nwrite@resource:///modules/sessionstore/SessionFile.jsm:448:24\nwrite@resource:///modules/sessionstore/SessionFile.jsm:75:32\n_writeState@resource:///modules/sessionstore/SessionSaver.jsm:360:24\n_saveState@resource:///modules/sessionstore/SessionSaver.jsm:294:17\n_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:344:10\nsaveStateAsyncWhenIdle@resource:///modules/sessionstore/SessionSaver.jsm:191:14\ncallback@resource://gre/modules/Timer.jsm:127:16\n"
+1585192448072	Marionette	INFO	Listening on port 7692
+1585192448356	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://assets.targetimg1.com/ssx/ssx.mod.js?seed=AIA_yBRxAQAAjjttsaTdwR7k2-I3vDlbQf4QHbz0HR_eRg7rCPRvAxinvRx0&X-GyJwza5Z--z=q, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ssx/ssx.mod.js?seed=AIA_yBRxAQAAjjttsaTdwR7k2-I3vDlbQf4QHbz0HR_eRg7rCPRvAxinvRx0&X-GyJwza5Z--z=q, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ssx/ssx.mod.js?seed=AIA_yBRxAQAAjjttsaTdwR7k2-I3vDlbQf4QHbz0HR_eRg7rCPRvAxinvRx0&X-GyJwza5Z--z=q, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ssx/ssx.mod.js?seed=AIA_yBRxAQAAjjttsaTdwR7k2-I3vDlbQf4QHbz0HR_eRg7rCPRvAxinvRx0&X-GyJwza5Z--z=q, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1585192468274	Marionette	INFO	Stopped listening on port 7692
+1585192596342	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\quipo\\AppData\\Local\\Temp\\rust_mozprofileRm7fdm"
+*** You are running in headless mode.
+1585192597976	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1585192599575	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1585192599575	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1585192599576	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1585192599576	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1585192604561	Marionette	INFO	Listening on port 7815
+1585192604881	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ssx/ssx.mod.js?seed=AIA_yBRxAQAAjjttsaTdwR7k2-I3vDlbQf4QHbz0HR_eRg7rCPRvAxinvRx0&X-GyJwza5Z--z=q, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ssx/ssx.mod.js?seed=AIA_yBRxAQAAjjttsaTdwR7k2-I3vDlbQf4QHbz0HR_eRg7rCPRvAxinvRx0&X-GyJwza5Z--z=q, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ssx/ssx.mod.js?seed=AIA_yBRxAQAAjjttsaTdwR7k2-I3vDlbQf4QHbz0HR_eRg7rCPRvAxinvRx0&X-GyJwza5Z--z=q, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ssx/ssx.mod.js?seed=AIA_yBRxAQAAjjttsaTdwR7k2-I3vDlbQf4QHbz0HR_eRg7rCPRvAxinvRx0&X-GyJwza5Z--z=q, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: , line 0: uncaught exception: Object
+1585192625770	Marionette	INFO	Stopped listening on port 7815
+1585192731304	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\quipo\\AppData\\Local\\Temp\\rust_mozprofileaEbu06"
+*** You are running in headless mode.
+1585192732824	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1585192734721	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1585192734721	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1585192734722	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1585192734722	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1585192739533	Marionette	INFO	Listening on port 7930
+1585192739804	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: chrome://marionette/content/proxy.js, line 222: TypeError: this.browser.driver.dialogObserver is null
+JavaScript warning: https://assets.targetimg1.com/ssx/ssx.mod.js?seed=AIA_yBRxAQAAjjttsaTdwR7k2-I3vDlbQf4QHbz0HR_eRg7rCPRvAxinvRx0&X-GyJwza5Z--z=q, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ssx/ssx.mod.js?seed=AIA_yBRxAQAAjjttsaTdwR7k2-I3vDlbQf4QHbz0HR_eRg7rCPRvAxinvRx0&X-GyJwza5Z--z=q, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ssx/ssx.mod.js?seed=AIA_yBRxAQAAjjttsaTdwR7k2-I3vDlbQf4QHbz0HR_eRg7rCPRvAxinvRx0&X-GyJwza5Z--z=q, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ssx/ssx.mod.js?seed=AIA_yBRxAQAAjjttsaTdwR7k2-I3vDlbQf4QHbz0HR_eRg7rCPRvAxinvRx0&X-GyJwza5Z--z=q, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: , line 0: uncaught exception: Object
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[Parent 7544, Gecko_IOThread] WARNING: file z:/task_1583751780/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+JavaScript error: chrome://marionette/content/proxy.js, line 222: TypeError: this.browser.driver.dialogObserver is null
+1585192852555	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\quipo\\AppData\\Local\\Temp\\rust_mozprofileh9O91C"
+*** You are running in headless mode.
+1585192855500	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1585192859322	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1585192859322	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1585192859323	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1585192859323	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: "Could not write session state file " (new Error("_initWorker called too early! Please read the session file from disk first.", "resource:///modules/sessionstore/SessionFile.jsm", 375)) "_initWorker/<@resource:///modules/sessionstore/SessionFile.jsm:375:15\n_initWorker@resource:///modules/sessionstore/SessionFile.jsm:368:12\n_postToWorker@resource:///modules/sessionstore/SessionFile.jsm:410:16\nwrite@resource:///modules/sessionstore/SessionFile.jsm:448:24\nwrite@resource:///modules/sessionstore/SessionFile.jsm:75:32\n_writeState@resource:///modules/sessionstore/SessionSaver.jsm:360:24\n_saveState@resource:///modules/sessionstore/SessionSaver.jsm:294:17\n_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:344:10\nsaveStateAsyncWhenIdle@resource:///modules/sessionstore/SessionSaver.jsm:191:14\ncallback@resource://gre/modules/Timer.jsm:127:16\n"
+1585192873119	Marionette	INFO	Listening on port 8050
+1585192873878	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: WebGL warningJavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: Failed to create WebGJavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5318324105&moatClientLevel4=138305330914&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=btf&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5318324105&moatClientLevel4=138305330914&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=btf&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5318324105&moatClientLevel4=138305330914&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=btf&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5318324105&moatClientLevel4=138305330914&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=btf&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1585192915769	Marionette	INFO	Stopped listening on port 8050
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 680: TypeError: this.tablesData[table] is undefined
+JavaScript error: resource://gre/modules/UpdateTimerManager.jsm, line 352: TypeError: setting getter-only property "gLogEnabled"
+JavaScript error: resource://gre/modules/ModulesPing.jsm, line 70: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "setting getter-only property "gLogEnabled"" {file: "resource://gre/modules/UpdateTimerManager.jsm" line: 352}]'[JavaScript Error: "setting getter-only property "gLogEnabled"" {file: "resource://gre/modules/UpdateTimerManager.jsm" line: 352}]' when calling method: [nsIUpdateTimerManager::registerTimer]
+: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5325638803&moatClientLevel4=138306435211&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block1&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5325638803&moatClientLevel4=138306435211&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block1&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5329895932&moatClientLevel4=138306587553&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=ss&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5329895932&moatClientLevel4=138306587553&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=ss&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5329895932&moatClientLevel4=138306587553&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=ss&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5329895932&moatClientLevel4=138306587553&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=ss&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1585192915472	Marionette	INFO	Stopped listening on port 8048
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/UrlClassifJavaScript error: resource://gre/modules/UpdateTimerManager.jsm, line 352: TypeError: setting getter-only property "gLogEnabled"
+JavaScript error: resource://gre/modules/ModulesPing.jsm, line 70: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "setting getter-only property "gLogEnabled"" {file: "resource://gre/modules/UpdateTimerManager.jsm" line: 352}]'[JavaScript Error: "setting getter-only property "gLogEnabled"" {file: "resource://gre/modules/UpdateTimerManager.jsm" line: 352}]' when calling method: [nsIUpdateTimerManager::registerTimer]
+1585192926491	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\quipo\\AppData\\Local\\Temp\\rust_mozprofileK6IucP"
+*** You are running in headless mode.
+1585192931927	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1585192934590	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozill1585192935182	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:1585192935770	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozill1585192938322	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1585192949245	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1585192949245	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1585192949245	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1585192949246	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: "Could not write session state file " (new Error("_initWorker called too early! Please read the session file from disk first.", "resource:///modules/sessionstore/SessionFile.jsm", 375)) "_initWorker/<@resource:///modules/sessionstore/SessionFile.jsm:375:15\n_initWorker@resource:///modules/sessionstore/SessionFile.jsm:368:12\n_postToWorker@resource:///modules/sessionstore/SessionFile.jsm:410:16\nwrite@resource:///modules/sessionstore/SessionFile.jsm:448:24\nwrite@reJavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warn1585192971809	Marionette	INFO	Listening on port 8497
+1585192972808	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5325638803&moatClientLevel4=138306051462&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=btf&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5325638803&moatClientLevel4=138306051462&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=btf&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5325638803&moatClientLevel4=138306051462&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=btf&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5325638803&moatClientLevel4=138306051462&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=btf&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5329895932&moatClientLevel4=138306587553&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block1&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5329895932&moatClientLevel4=138306587553&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block1&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5329895932&moatClientLevel4=138306587553&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block1&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5329895932&moatClientLevel4=138306587553&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block1&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5325638803&moatClientLevel4=138306435211&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=ss&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5325638803&moatClientLevel4=138306435211&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=ss&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5325638803&moatClientLevel4=138306435211&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=ss&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5325638803&moatClientLevel4=138306435211&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=ss&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5318324105&moatClientLevel4=138305330905&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block2&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5318324105&moatClientLevel4=138305330905&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block2&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5318324105&moatClientLevel4=138305330905&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block2&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5318324105&moatClientLevel4=138305330905&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block2&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5319247115&moatClientLevel4=138306433546&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block3&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5319247115&moatClientLevel4=138306433546&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block3&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5319247115&moatClientLevel4=138306433546&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block3&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5319247115&moatClientLevel4=138306433546&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block3&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1585193014213	Marionette	INFO	Stopped listening on port 8497
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+
+###!!! [Child][MessageChannel] Error: (JavaScript error: resource://gre/modules/UpdateTimerManager.jsm, line 352: TypeError: setting getter-only property "gLogEnabled"
+JavaScript error: resource://gre/modules/ModulesPing.jsm, line 70: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "setting getter-only property "gLogEnabled"" {file: "resource://gre/modules/UpdateTimerManager.jsm" line: 352}]'[JavaScript Error: "setting getter-only property "gLogEnabled"" {file: "resource://gre/modules/UpdateTimerManager.jsm" line: 352}]' when calling method: [nsIUpdateTimerManager::registerTimer]
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x37012E,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 680: TypeError: this.tablesData[table] is undefined
+1585193024626	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\quipo\\AppData\\Local\\Temp\\rust_mozprofiletc7XBu"
+*** You are running in headless mode.
+1585193026113	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1585193028902	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1585193028902	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1585193028903	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1585193028903	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: "Could not write session state file " (new Error("_initWorker called too early! Please read the session file from disk first.", "resource:///modules/sessionstore/SessionFile.jsm", 375)) "_initWorker/<@resource:///modules/sessionstore/SessionFile.jsm:375:15\n_initWorker@resource:///modules/sessionstore/SessionFile.jsm:368:12\n_postToWorker@resource:///modules/sessionstore/SessionFile.jsm:410:16\nwrite@resource:///modules/sessionstore/SessionFile.jsm:448:24\nwrite@resource:///modules/sessionstore/SessionFile.jsm:75:32\n_writeState@resource:///modules/sessionstore/SessionSaver.jsm:360:24\n_saveState@resource:///modules/sessionstore/SessionSaver.jsm:294:17\n_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:344:10\nsaveStateAsyncWhenIdle@resource:///modules/sessionstore/SessionSaver.jsm:191:14\ncallback@resource://gre/modules/Timer.jsm:127:16\n"
+1585193038673	Marionette	INFO	Listening on port 8963
+1585193038994	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5329895932&moatClientLevel4=138306587562&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=btf&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5329895932&moatClientLevel4=138306587562&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=btf&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5329895932&moatClientLevel4=138306587562&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=btf&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5329895932&moatClientLevel4=138306587562&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=btf&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5319247115&moatClientLevel4=138306433546&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block1&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5319247115&moatClientLevel4=138306433546&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block1&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5319247115&moatClientLevel4=138306433546&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block1&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5319247115&moatClientLevel4=138306433546&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block1&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5318324105&moatClientLevel4=138305330905&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=ss&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5318324105&moatClientLevel4=138305330905&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=ss&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5318324105&moatClientLevel4=138305330905&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=ss&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5318324105&moatClientLevel4=138305330905&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=ss&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1585193061160	Marionette	INFO	Stopped listening on port 8963
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ntLevel4=138306433546&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block2&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5319247115&moatClientLevel4=138306433546&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block2&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5319247115&moatClientLevel4=138306433546&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block2&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5319247115&moatClientLevel4=138306433546&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block2&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5319247115&moatClientLevel4=138306433546&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block3&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5319247115&moatClientLevel4=138306433546&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block3&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5319247115&moatClientLevel4=138306433546&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block3&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5319247115&moatClientLevel4=138306433546&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block3&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1585193057117	Marionette	INFO	Stopped listening on port 8959
+JavaScript error: resource://gre/actors/BrowserElementParent.jsm, line 314: TypeError: state is undefined
+JavaScript error: resource://gre/actors/BrowserElementParent.jsm, line 314: TypeError: state is undefined
+[Parent 4788, Gecko_IOThread] WARNING: file z:/task_1583751780/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+1585193070059	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\quipo\\AppData\\Local\\Temp\\rust_mozprofilengEswT"
+*** You are running in headless mode.
+1585193071578	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1585193074010	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1585193074010	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1585193074011	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1585193074011	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1585193078294	Marionette	INFO	Listening on port 9183
+1585193078524	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5318324105&moatClientLevel4=138305330914&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=btf&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5318324105&moatClientLevel4=138305330914&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=btf&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5318324105&moatClientLevel4=138305330914&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=btf&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5318324105&moatClientLevel4=138305330914&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=btf&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: , line 0: uncaught exception: The prodid value must be within 1 to 50 characters.
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5325638803&moatClientLevel4=138306435211&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=ss&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5325638803&moatClientLevel4=138306435211&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=ss&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5325638803&moatClientLevel4=138306435211&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=ss&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5325638803&moatClientLevel4=138306435211&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=ss&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5319247115&moatClientLevel4=138306433546&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block1&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5319247115&moatClientLevel4=138306433546&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block1&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5319247115&moatClientLevel4=138306433546&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block1&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5319247115&moatClientLevel4=138306433546&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block1&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5319247115&moatClientLevel4=138306433546&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block2&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5319247115&moatClientLevel4=138306433546&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block2&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5319247115&moatClientLevel4=138306433546&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block2&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5319247115&moatClientLevel4=138306433546&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block2&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5318324105&moatClientLevel4=138305330905&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block3&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5318324105&moatClientLevel4=138305330905&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block3&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5318324105&moatClientLevel4=138305330905&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block3&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5318324105&moatClientLevel4=138305330905&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block3&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1585193097808	Marionette	INFO	Stopped listening on port 9183
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1585193105524	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\quipo\\AppData\\Local\\Temp\\rust_mozprofilekYruPx"
+*** You are running in headless mode.
+1585193107096	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1585193108789	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1585193108789	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1585193108790	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1585193108790	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1585193112934	Marionette	INFO	Listening on port 9294
+1585193113397	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/vendor.0a1e8ae6.js, line 2: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://assets.targetimg1.com/ui/atdfm.6b9414e2.js, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5318324105&moatClientLevel4=138305330914&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=btf&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5318324105&moatClientLevel4=138305330914&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=btf&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5318324105&moatClientLevel4=138305330914&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=btf&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5318324105&moatClientLevel4=138305330914&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=btf&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5319247115&moatClientLevel4=138306433546&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block1&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5319247115&moatClientLevel4=138306433546&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block1&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5319247115&moatClientLevel4=138306433546&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block1&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5319247115&moatClientLevel4=138306433546&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block1&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5325638803&moatClientLevel4=138306435211&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block2&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5325638803&moatClientLevel4=138306435211&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block2&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5325638803&moatClientLevel4=138306435211&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block2&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5325638803&moatClientLevel4=138306435211&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=block2&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5318324105&moatClientLevel4=138305330905&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=ss&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5318324105&moatClientLevel4=138305330905&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=ss&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5318324105&moatClientLevel4=138305330905&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=ss&zMoatPT=category&zMoatST=, line 253: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/targetdfp320149284940/moatad.js#moatClientLevel1=24321326&moatClientLevel2=2630273039&moatClientLevel3=5318324105&moatClientLevel4=138305330905&moatClientSlicer1=6079166&moatClientSlicer2=21846161131&zMoatPS=ss&zMoatPT=category&zMoatST=, line 253: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1585193137128	Marionette	INFO	Stopped listening on port 9294
+[Parent 2216, Gecko_IOThread] WARNING: file z:/task_1583751780/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+[Parent 2216, Gecko_IOThread] WARNING: file z:/task_1583751780/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
