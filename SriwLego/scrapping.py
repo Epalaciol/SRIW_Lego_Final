@@ -1,5 +1,13 @@
+import django
+import os
 import requests
 from bs4 import BeautifulSoup
+
+
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "SriwLego.settings")
+django.setup()
+
+from recomendador.models import Producto as ProductosDjdango
 
 listaGeneral = []
 
@@ -53,7 +61,8 @@ def legoOriginal(URL, categoria):
         if (len(identificador)>=10):            
             identificador = identificador.split('.')
             identificador = identificador[0]
-        listaGeneral.append((identificador, nombre, precioFinal,piezas,categoria, enlaceProducto))
+
+        listaGeneral.append((identificador, nombre, enlaceProducto,categoria,precioFinal,piezas ))
     
     
     lista_paginas = parser.find('nav', class_='Paginationstyles__PagesNav-npbsev-2 hYNPJr')
@@ -64,11 +73,22 @@ def legoOriginal(URL, categoria):
           
 
 if __name__ == "__main__":
+    
     categorias = ['architecture','city','friends','lego-batman-sets','minecraft']
     for i in categorias:
         URL = 'https://www.lego.com/en-us/themes/'
         URL += i
         legoOriginal(URL,i )
+        
     for elemento in listaGeneral:
-        print(elemento)
+        try:
+            prod = ProductosDjdango.objects.get(idProducto = elemento[0])
+            prod.link2 = elemento[2]
+            prod.save()
+        except:
+            prod= ProductosDjdango(idProducto = str(elemento[0]), nombre =elemento[1], link2 = elemento[2], categoria = elemento[3], precio = float(elemento[4]), nPiezas = elemento[5],observaciones = 'aun no disponible', estado =True)
+            prod.save()
+
+            
+
     
