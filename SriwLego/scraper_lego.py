@@ -135,9 +135,5 @@ if __name__ == "__main__":
     #        prod.save()
     #    except:
     #        prod= ProductosDjdango(idProducto = str(elemento[0]), nombre =elemento[1], link2 = elemento[2], categoria = elemento[3], precio = float(elemento[4]), nPiezas = elemento[5],observaciones = 'aun no disponible', estado =True)
-<<<<<<< HEAD:SriwLego/scraper_lego.py
-    #        prod.save()
-=======
     #        prod.save()
     
->>>>>>> 7c37c163dfb537f43f55c219269573aee641bf73:SriwLego/scrapping.py
