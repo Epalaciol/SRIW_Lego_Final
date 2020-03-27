@@ -1,18 +1,49 @@
 import os
 import django
+import requests
+from bs4 import BeautifulSoup
 
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "SriwLego.settings")
 django.setup()
 
 from recomendador.models import Producto as ProductosDjdango
-
-from selenium import webdriver
-from bs4 import BeautifulSoup
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.firefox.options import Options
+import scraper_target
 from multiprocessing import Pool
 from multiprocessing import cpu_count
 from time import time #importamos la función time para capturar tiempos
+<<<<<<< HEAD
+
+from recomendador.models import Producto as ProductosDjdango
+
+URLBaseLego =  'https://www.lego.com'
+
+def informacionOficial(URLP):
+    global URLBaseLego
+    URLProducto = URLBaseLego 
+    URLProducto += URLP
+    pagina = requests.get(URLProducto)
+    parser = BeautifulSoup(pagina.content, 'html.parser')
+    listarPiezas = parser.find_all('div', class_='ProductDetailsstyles__ProductAttribute-sc-16lgx7x-2 vcPOs')
+    try:
+        piezas  = listarPiezas[1].find_all('span')
+        piezas = piezas[1]
+        piezas = piezas.text.strip()
+    except IndexError:
+        piezas = 0
+    return piezas, URLProducto
+
+def legoOficial(listaLego):
+    global URLBaseLego
+
+    URL = URLBaseLego
+    URL += listaLego
+    categoria = listaLego[14:]
+    try:
+        categoria = categoria.split('?')
+        categoria = categoria[0]
+    except:
+        pass
+=======
 from random import randint
 import requests
 from time import sleep
@@ -65,30 +96,69 @@ def informacion(producto):
     global conteo
     URL=producto.URLBase+producto.URLResto
     #print(URL)
+>>>>>>> 7c37c163dfb537f43f55c219269573aee641bf73
     page = requests.get(URL)
     parser = BeautifulSoup(page.content, 'html.parser')
+    lista_productos = parser.find('div', class_='ProductListingsstyles__Content-sc-1taio5c-2 iHRYuT')
+    productos = lista_productos.find_all('div', class_='ProductLeafSharedstyles__Wrapper-sc-1epu2xb-0 hIVRQm')
+    listaGeneral =[]
+
+    for producto in   productos:
+        URL = producto.find('a', class_= 'ProductImagestyles__ProductImageLink-sc-1sgp7uc-0 hoRfhG')['href']
+        nombre = producto.find('h2', class_='ProductLeafSharedstyles__Title-sc-1epu2xb-9 eNbUrI Text__BaseText-aa2o0i-0 zdErV')
+        nombre = nombre.find('span', class_='Markup__StyledMarkup-ar1l9g-0 bTYWAd')
+        identificador = producto.find('span', class_= 'ProductLeafSharedstyles__Code-sc-1epu2xb-8 fqevBI Text__BaseText-aa2o0i-0 fZPGmf')
+        precio = producto.find('span', class_= "ProductPricestyles__StyledText-vmt0i4-0 ipNtqe Text__BaseText-aa2o0i-0 kCXVdj")
+        try:
+            precio = precio.text.strip()
+            indice = precio.find('Price')
+            precioFinal= precio[indice:]
+            precioFinal = precioFinal[6:]
+        except  AttributeError:
+            precio = producto.find('div', class_= "ProductPricestyles__Wrapper-vmt0i4-1 kDSLfg")
+            precio = precio.find_all('span')
+            precio = precio[2].text.strip()
+            indice = precio.find('Price')
+            precioFinal= precio[indice:]
+            precioFinal = precioFinal[6:]
+        except:
+            pass      
+        
+
+        listaInformacion = informacionOficial(URL)
+        piezas = listaInformacion[0]
+        enlaceProducto =listaInformacion[1]
+
+        identificador = identificador.text.strip()
+        nombre = nombre.text.strip()
+        if (len(identificador)>=10):            
+            identificador = identificador.split('.')
+            identificador = identificador[0]
+
+        #print(identificador, nombre, enlaceProducto,categoria,precioFinal,piezas)
+        listaGeneral.append((identificador, nombre, enlaceProducto,categoria,precioFinal,piezas ))
+    
+    
+    lista_paginas = parser.find('nav', class_='Paginationstyles__PagesNav-npbsev-2 hYNPJr')
+    if str(type(lista_paginas)) == "<class 'bs4.element.Tag'>":
+        paginas = lista_paginas.find_all('a', class_ ='Paginationstyles__NextLink-npbsev-10 ewFiGQ')
+        for pagina in paginas:
+            listaGeneral.extend(legoOficial(pagina['href']))
+
+    return listaGeneral      
+    
+
+if __name__ == "__main__":
+    tiempo_inicial = time() 
 
 
-    titulo = parser.find('h1', class_='Heading__StyledHeading-sc-1m9kw5a-0').text.strip()
-    #precio = parser.find('div', class_='style__PriceFontSize-gob4i1-0').text.strip()
-    no_piezas  = parser.find("div", class_="Col-favj32-0 fVmltG h-padding-h-default")
-    no_piezas2=no_piezas.find('div').text.strip()
 
-    producto.nombre = titulo
-    producto.codigo = extracter_codigo(titulo)
-    #producto.precio  = float(precio.replace("$", ""))
-    producto.piezas  = extracter_piezas(no_piezas2)
+    
+    categoriasOficial = ['/en-us/themes/architecture','/en-us/themes/city','/en-us/themes/friends','/en-us/themes/lego-batman-sets','/en-us/themes/minecraft']
 
-    conteo=conteo+1
-    return producto
-
-
-
-
-#usa selenium para renderizar las paginas que cargan mediante JS
-#para conseguir algunos atributos de los productos y sus links
-def legoOriginal(argumentos):
-
+<<<<<<< HEAD
+    poolLego = Pool(cpu_count()*8)
+=======
     try:
         global URLBase
         URLResto=argumentos[0]
@@ -147,8 +217,41 @@ def legoOriginal(argumentos):
     except:
         pass
         #system("taskkill /f /im  firefox.exe")
+>>>>>>> 7c37c163dfb537f43f55c219269573aee641bf73
 
+    with poolLego as p:
+        listas = p.map(legoOficial,categoriasOficial)
+    links=[]
+    lista_productos=[]
+    categoriasOficial=[]
+    for lista in listas:
+        for element in lista:
+            lista_productos.append(element)
+    print("cantidad objetos creados")
+    print(len(lista_productos))
+    for producto in lista_productos:
+        #print(producto.to_print())       
+        print(producto[1])
 
+<<<<<<< HEAD
+
+ 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+=======
 def informacionOficial(URLP):
     global URLBaseLego
     URLProducto = URLBaseLego 
@@ -234,13 +337,11 @@ if __name__ == "__main__":
         articulo.save()
 
     tiempo_inicial = time() 
+>>>>>>> 7c37c163dfb537f43f55c219269573aee641bf73
 
     categorias = ['architecture','city','friends','lego-batman-sets','minecraft']
     URLSResto = ['/b/lego/-/N-56h5nZ5chhkZ9imip?type=products&lnk=LEGOArchitectur','/c/lego-city/-/N-k854h?lnk=LEGOCity','/c/lego-friends/-/N-h258a?lnk=LEGOFriends','/c/lego-batman/-/N-4rt2x?lnk=LEGOBatman','/c/lego-minecraft/-/N-p2onl?lnk=LEGOminecraft']
     
-
-    #categorias = ['architecture']
-    #URLSResto = ['/b/lego/-/N-56h5nZ5chhkZ9imip?type=products&lnk=LEGOArchitectur']
 
     mezcla=zip(URLSResto,categorias)
     
@@ -248,7 +349,7 @@ if __name__ == "__main__":
 
     #multiproceso para acelerar la velocidad del algoritmo (selenium es lento, sin esto tardaria unos 10 o 15 min mas)
     with pool as p:
-        listas = p.map(legoOriginal,mezcla)
+        listas = p.map(scraper_target.legoOriginal,mezcla)
     links=[]
     lista_productos=[]
     categorias=[]
@@ -259,12 +360,14 @@ if __name__ == "__main__":
 
     pool2 = Pool(cpu_count()*4)
     with pool2 as p:
-        lista_productos=p.map(informacion,lista_productos)
+        lista_productos=p.map(scraper_target.informacion,lista_productos)
+        
+    print("cantidad objetos creados")
+    print(len(lista_productos))
     
     for producto in lista_productos:
         #print(producto.to_print())
-        print("cantidad objetos creados")
-        print(len(lista_productos))
+        
         prod= ProductosDjdango(idProducto = str(producto.codigo), nombre =producto.nombre, link1 = producto.URLBase+producto.URLResto, link2 = 'no disponible aun', categoria = producto.categoria, precio = producto.precio_venta, nPiezas = producto.piezas,observaciones = 'aun no disponible', estado =True)
         prod.save()
 
