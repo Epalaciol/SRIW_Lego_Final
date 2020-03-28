@@ -63,7 +63,7 @@ if __name__ == "__main__":
     print(len(lista_productos))    
         
     for producto in lista_productos:
-        #print(producto.to_print())
+
 
         prod= ProductosDjdango(idProducto = str(producto.codigo), nombre =producto.nombre, link1 = producto.URLBase+producto.URLResto, link2 = 'no disponible aun', categoria = producto.categoria, precio = producto.precio_venta, nPiezas = producto.piezas,observaciones = 'aun no disponible', estado =True)
         prod.save()
@@ -108,10 +108,14 @@ if __name__ == "__main__":
     print("cantidad objetos creados")
     print(len(lista_productos))
     for producto in lista_productos:
-        #print(producto.to_print())
-       
-        print(producto[1])
-
+        try:
+            prod = ProductosDjdango.objects.get(idProducto = producto[0])
+            prod.link2 = producto[2]
+            prod.save()
+        except:
+            prod= ProductosDjdango(idProducto = str(producto[0]), nombre =producto[1], link2 = producto[2], categoria = producto[3], precio = float(producto[4]), nPiezas = producto[5],observaciones = 'aun no disponible', estado =True)
+            prod.save()
+        
 
     tiempo_final = time() 
     tiempo_ejecucion = tiempo_final - tiempo_inicial
