@@ -55,14 +55,14 @@ def legoOficial(listaLego):
         precio = producto.find('span', class_= "ProductPricestyles__StyledText-vmt0i4-0 ipNtqe Text__BaseText-aa2o0i-0 kCXVdj")
         try:
             precio = precio.text.strip()
-            indice = precio.find('Price')
+            indice = precio.find('Price$')
             precioFinal= precio[indice:]
             precioFinal = precioFinal[6:]
         except  AttributeError:
             precio = producto.find('div', class_= "ProductPricestyles__Wrapper-vmt0i4-1 kDSLfg")
             precio = precio.find_all('span')
             precio = precio[2].text.strip()
-            indice = precio.find('Price')
+            indice = precio.find('Price$')
             precioFinal= precio[indice:]
             precioFinal = precioFinal[6:]
         except:
@@ -78,6 +78,8 @@ def legoOficial(listaLego):
         if (len(identificador)>=10):            
             identificador = identificador.split('.')
             identificador = identificador[0]
+        if ('{' in nombre):
+            print(nombre)
 
         #print(identificador, nombre, enlaceProducto,categoria,precioFinal,piezas)
         listaGeneral.append((identificador, nombre, enlaceProducto,categoria,precioFinal,piezas ))
@@ -111,7 +113,7 @@ if __name__ == "__main__":
     for producto in lista_productos:
         #print(producto.to_print())
        
-        print(producto[1])
+        print(producto[4])
 
 
     tiempo_final = time() 

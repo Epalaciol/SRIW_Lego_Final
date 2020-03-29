@@ -27,8 +27,11 @@ from recomendador.models import Producto as ProductosDjdango
 
 if __name__ == "__main__":
 
+    listProduBD = ProductosDjdango.objects.all()
+    for p in listProduBD:
+        p.estado = False
 
-
+    
 ##########scraper target
 
     tiempo_inicial = time() 
@@ -77,20 +80,9 @@ if __name__ == "__main__":
 
 
 
-
-
-
-
-
-
-
-
-
 #scraper lego
-
-
-
-
+    
+    
     tiempo_inicial = time() 
     
     categoriasOficial = ['/en-us/themes/architecture','/en-us/themes/city','/en-us/themes/friends','/en-us/themes/lego-batman-sets','/en-us/themes/minecraft']
@@ -110,7 +102,22 @@ if __name__ == "__main__":
     for producto in lista_productos:
         try:
             prod = ProductosDjdango.objects.get(idProducto = producto[0])
+            nombreProd = prod.nombre
+            categoria = prod.categoria
+            precio = prod.precio
+            piezas = prod.nPiezas
+            observacion = ""
+            if (nombreProd != producto[1]):
+                observacion += 'Diferencia de valor encontrada para Nombre se selecciona '+nombreProd+'; posibles valores son '+nombreProd+' en Target y '+producto[1]+' en Lego-Oficial\n'
+            if (categoria != producto[3]):
+                observacion += 'Diferencia de valor encontrada para Categoria se selecciona '+categoria+'; posibles valores son '+categoria+' en Target y '+producto[3]+' en Lego-Oficial\n'
+            if (precio != producto[4]):
+                observacion += 'Diferencia de valor encontrada para Precio se selecciona '+str(precio)+'; posibles valores son '+str(precio)+' en Target y '+str(float(producto[4]))+' en Lego-Oficial\n'
+            if (piezas != producto[5]):
+                observacion += 'Diferencia de valor encontrada para Precio se selecciona '+piezas+'; posibles valores son '+piezas+' en Target y '+producto[5]+' en Lego-Oficial\n'
+            
             prod.link2 = producto[2]
+            prod.observaciones = observacion
             prod.save()
         except:
             prod= ProductosDjdango(idProducto = str(producto[0]), nombre =producto[1], link2 = producto[2], categoria = producto[3], precio = float(producto[4]), nPiezas = producto[5],observaciones = 'aun no disponible', estado =True)

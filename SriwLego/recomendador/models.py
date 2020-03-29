@@ -14,7 +14,7 @@ class Producto(models.Model):
     link1 = models.URLField()
     link2 = models.URLField(null = True)
     categoria =  models.CharField(max_length=50)
-    precio = models.IntegerField()
+    precio = models.FloatField()
     nPiezas = models.IntegerField()
     observaciones = models.TextField(null = True)
     estado = models.BooleanField()
