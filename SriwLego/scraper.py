@@ -30,6 +30,7 @@ if __name__ == "__main__":
     listProduBD = ProductosDjdango.objects.all()
     for p in listProduBD:
         p.estado = False
+        p.save()
 
     
 ##########scraper target
