@@ -57,13 +57,24 @@
                       </tr>
                     </thead>
                     <tbody>
-                      <tr>
-                        <td scope="row">0001</td>
-                        <td>Lego</td>
-                        <td>-</td>
-                        <td><button class="btn btn-primary" title="Ver Mas" data-toggle="modal"  data-target='#verMas'>+</button></td>
-                        <td><button class="btn btn-success" title="Calificar" data-toggle="modal"  data-target='#calificar'>Calificar</button></td>
-                      </tr>
+                        {% for producto in productos%}
+                        <tr>
+                            <td scope="row">{{producto.idProducto}}</td>
+                            <td>{{producto.nombre}}</td>
+                            <td>{{producto.calificacion_vieja}}</td>
+                            <td><button class="btn btn-primary verMas" title="Ver Mas" data-toggle="modal"
+                                data-idproducto={{producto.idProducto}} 
+                                data-nombre="{{producto.nombre}}"
+                                data-link1="{{producto.link1}}"
+                                data-link2="{{producto.link2}}"
+                                data-categoria="{{producto.categoria}}"
+                                data-precio="{{producto.precio}}"
+                                data-npiezas="{{producto.nPiezas}}"
+                                data-observaciones="{{producto.observaciones}}"
+                                data-target='#verMas'>+</button></td>
+                            <td><button class="btn btn-success calificacion" title="Calificar" data-toggle="modal"  data-calificacion={{producto.calificacion_vieja}}  data-target='#calificar' data-idproducto={{producto.idProducto}} data-nombre="{{producto.nombre}}">Calificar</button></td>
+                        </tr>
+                        {% endfor%}
                     </tbody>
                 </table>
             </div>
@@ -73,22 +84,24 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title"><b>Calificar ...nombre</b></h5>
+                    <h5 class="modal-title"><b id="nombre_producto">Calificar ...nombre</b></h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
                     <form id="calificaciones" method="POST">
+                        {% csrf_token%}
                         <div class="form-group">
                             <label>* Id Producto:</label>
-                            <input name="idProducto" type="text" required disabled
+                            <label id="codigo_desplegado">...</label>
+                            <input id="idProducto" name="idProducto" type="hidden" required
                                 class="form-control"
                                 />
                         </div>
                         <div class="form-group">
-                            <label>* Calificacion(0 a 10):</label>
-                            <input name="calificacion" type="number" required
+                            <label>* Calificación(0 a 10):</label>
+                            <input id="calificacion" name="calificacion" type="number" required
                                 class="form-control"
                                 min="0" max="10"
                                 />
@@ -107,7 +120,7 @@
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title"><b> ...nombre</b></h5>
+                    <h5 class="modal-title"><b id="nombreDesplegado"> ...nombre</b></h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                     </button>
@@ -116,35 +129,51 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-6 ml-auto"><b>Id Producto</b></div>
-                            <div class="col-md-6 ml-auto">...</div>
+                            <div class="col-md-6 ml-auto">
+                                <label id="productoId">...</label>
+                            </div>
                         </div>
                         <div class="row">
                             <div class="col-md-6 ml-auto"><b>Nombre</b></div>
-                            <div class="col-md-6 ml-auto">...</div>
+                            <div class="col-md-6 ml-auto">
+                                <label id="productoNombre">...</label>
+                            </div>
                         </div>
                         <div class="row">
                             <div class="col-md-6 ml-auto"><b>Link 1</b></div>
-                            <div class="col-md-6 ml-auto">...</div>
+                            <div class="col-md-6 ml-auto">
+                                <a id="link1" href="link1">Link</a>
+                            </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-6 ml-auto"><b>Link 2</b></div>
-                            <div class="col-md-6 ml-auto">...</div>
+                            <div class="col-md-6 ml-auto"><b>Link</b></div>
+                            <div class="col-md-6 ml-auto">
+                                <a id="link2" href="link2">No tiene</a>
+                            </div>
                         </div>
                         <div class="row">
                             <div class="col-md-6 ml-auto"><b>Categoria</b></div>
-                            <div class="col-md-6 ml-auto">...</div>
+                            <div class="col-md-6 ml-auto">
+                                <label id="categoria">...</label>
+                            </div>
                         </div>
                         <div class="row">
                             <div class="col-md-6 ml-auto"><b>Precio</b></div>
-                            <div class="col-md-6 ml-auto">...</div>
+                            <div class="col-md-6 ml-auto">
+                                <label id="precio">...</label>
+                            </div>
                         </div>
                         <div class="row">
                             <div class="col-md-6 ml-auto"><b># Piezas</b></div>
-                            <div class="col-md-6 ml-auto">...</div>
+                            <div class="col-md-6 ml-auto">
+                                <label id="piezas">...</label>
+                            </div>
                         </div>
                         <div class="row">
                             <div class="col-md-6 ml-auto"><b>Observaciones</b></div>
-                            <div class="col-md-6 ml-auto">...</div>
+                            <div class="col-md-6 ml-auto">
+                                <label id="observaciones">...</label>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -158,6 +187,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
     <script src="{% static 'nav.js' %}"></script>
+    <script src="{% static 'funciones.js' %}"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.js"></script>
 </body>
 </html>
