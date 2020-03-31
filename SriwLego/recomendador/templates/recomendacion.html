@@ -66,7 +66,7 @@
                                 <td scope="row">{{prod.producto.n}}</td>
                                 <td scope="row">{{prod.producto.idProducto}}</td>
                                 <td>{{prod.producto.nombre}}</td>
-                                <td><button class="btn btn-primary verMas" title="Ver Mas" data-toggle="modal"
+                                <td><button type="button" class="btn btn-primary verMas" title="Ver Mas" data-toggle="modal"
                                     data-idproducto={{prod.producto.idProducto}} 
                                     data-nombre="{{prod.producto.nombre}}"
                                     data-link1="{{prod.producto.link1}}"
@@ -76,7 +76,7 @@
                                     data-npiezas="{{prod.producto.nPiezas}}"
                                     data-observaciones="{{prod.producto.observaciones}}"
                                     data-target='#verMas'>+</button></td>
-                                <td><button class="btn btn-success calificacion" title="Calificar" data-toggle="modal"  data-calificacion={{prod.producto.calificacion_vieja}}  data-target='#calificar' data-idproducto={{prod.producto.idProducto}} data-nombre="{{prod.producto.nombre}}">Calificar</button></td>
+                                <td><button type="button" class="btn btn-success calificacion" title="Calificar" data-toggle="modal"  data-target='#calificar' data-idproducto={{prod.producto.idProducto}} data-nombre="{{prod.producto.nombre}}">Calificar</button></td>
                                 
                                 <td>
                                     <div class="form-check form-check-inline">
