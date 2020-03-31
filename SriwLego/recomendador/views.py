@@ -156,4 +156,6 @@ def recomendador(request):
 def perfil(request):
     usuario_actual = User.objects.get(username = request.user)
     perfil = Perfil.objects.get(usuario_id = usuario_actual.id)
-    return render(request, "perfil.html",{'perfil':perfil})
+    objetos = Acertado.objects.all()
+    precision = len(objetos.filter(acertado = True))/len(objetos)*100
+    return render(request, "perfil.html",{'perfil':perfil, 'precision': precision})
