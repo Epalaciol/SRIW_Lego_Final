@@ -1,11 +1,18 @@
 # SRIW-Recomendador
 Sistema de recomendacion de Legos
 
+## Integrantes
+Esteban palacio	            epalaciol@unal.edu.co
+Alejandro Jiménez Franco	aljimenezfr@unal.edu.co
+Jorge Eliecer Miranda	    jemirandas@unal.edu.co
+Daniel Arango Villegas	    daarangovi@unal.edu.co
 
 Para su instalancion es necesario el uso de:
 - Python 3.7 o superior
 - Django 3.0.4
 - suprise
+- selenium
+- firefox
 - pandas
 - bs4 (beautifulsoup)
 
@@ -13,6 +20,8 @@ Para iniciar el programa se debe ejecutar la consola de comandos en la carpeta S
 Luego dirigirse a la direccion proporcionada y iniciar o registrarse.
 
 ## WebScrapping
+Para Ejecutar esta herramienta se debe de ubicar dentro de la carpeta "SriwLego" y ejecutar el comando Python scraper.py
+Al ejecutar este comando se buscan los datos  que se mencionan en los items a continuación y actualiza y guarda los productos en la Base de Datos
 ### Pagina Oficial Lego
 Para este web scrapping utilizamos la tecnica aprendida en clase con la libreria bs4 para obtener el codigo html de las paginas web que se querian consultar; se buscaron los links de las categorias pedidas en el trabajo 2  y se dispuso a buscar el link; al haber obtenido todo el contenido de la pagina  se empiezan a buscar la etiquetas en HTML donde estan guardados los valores que necesitamos. 
 Para la paginación se busco una etiqueta que al analizar las paginas miraba si habian mas y se obtenian los links (href) y se envian recursivamente en la misma función. La mayoria de items obtenidos se encontraban al cargar la categoria pero para saber las piezas se debia ir directamente al link del producto  por lo cual se diseño otra función  que analizara la pagina del producto y extraer las piezas
