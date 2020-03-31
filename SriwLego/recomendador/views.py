@@ -145,11 +145,7 @@ def recomendador(request):
                 Calificacion.objects.create(producto = producto_obj, calificacion= calificacion_usuario, usuario = usuario_actual)
 
     usuario_actual = User.objects.get(username = request.user)
-    productos = recomendacion(usuario_actual)
-    lista = productos[0][0:10]
-    lista2 = productos[1][0:5]
-    print(lista)
-    print(lista2)
+    lista = recomendacion(usuario_actual)[0:10]
     n = 1
     for prod in lista:
         prod["producto"].n = n
