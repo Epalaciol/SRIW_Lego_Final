@@ -22,7 +22,6 @@ class Producto(models.Model):
 
 #Clase que almacena los productos acertados del sistema
 class Acertado(models.Model):
-    producto = models.ForeignKey(Producto, on_delete=models.CASCADE,)
     acertado = models.BooleanField()
     usuario =  models.ForeignKey(
         settings.AUTH_USER_MODEL,
