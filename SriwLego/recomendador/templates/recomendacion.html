@@ -50,6 +50,7 @@
                 <table class="table table-hover">
                     <thead>
                     <tr>
+                        <th scope="col">#</th>
                         <th scope="col">Id Producto</th>
                         <th scope="col">Nombre</th>
                         <th scope="col">Ver más</th>
@@ -58,8 +59,11 @@
                     </tr>
                     </thead>
                     <tbody>
+                        <form id="gustar" method="POST">
+                            {% csrf_token%}
                         {% for prod in productos%}
                             <tr>
+                                <td scope="row">{{prod.producto.n}}</td>
                                 <td scope="row">{{prod.producto.idProducto}}</td>
                                 <td>{{prod.producto.nombre}}</td>
                                 <td><button class="btn btn-primary verMas" title="Ver Mas" data-toggle="modal"
@@ -73,24 +77,33 @@
                                     data-observaciones="{{prod.producto.observaciones}}"
                                     data-target='#verMas'>+</button></td>
                                 <td><button class="btn btn-success calificacion" title="Calificar" data-toggle="modal"  data-calificacion={{prod.producto.calificacion_vieja}}  data-target='#calificar' data-idproducto={{prod.producto.idProducto}} data-nombre="{{prod.producto.nombre}}">Calificar</button></td>
-                                <form method="POST">
-                                    {% csrf_token%}
-                                    <td>
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                                            <label class="form-check-label" for="inlineRadio1">Si</label>
-                                        </div>
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                                            <label class="form-check-label" for="inlineRadio2">No</label>
-                                        </div>
-                                    </td>
-                                </form>
+                                
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="gusto{{prod.producto.n}}" id="inlineRadio1{{prod.producto.n}}" value="si">
+                                        <label class="form-check-label" for="inlineRadio1{{prod.producto.n}}">Si</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="gusto{{prod.producto.n}}" id="inlineRadio2{{prod.producto.n}}" value="no">
+                                        <label class="form-check-label" for="inlineRadio2{{prod.producto.n}}">No</label>
+                                    </div>
+                                </td>
+                                
                             </tr>
                         {% endfor%}
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>
+                                <button type="submit" form="gustar" class="btn btn-primary col align-self-end">Enviar</button>
+                            </td>
+                        </tr>
+                        </form>
                     </tbody>
                 </table>
-                
             </div>
         </div>
     </div>
@@ -120,7 +133,7 @@
                                 min="0" max="10"
                                 />
                         </div>
-   
+                        
                     </form>
                 </div>
                 <div class="modal-footer">
@@ -192,6 +205,7 @@
                     </div>
                 </div>
                 <div class="modal-footer">
+                    
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
                 </div>
             </div>
