@@ -6,6 +6,7 @@ Para su instalancion es necesario el uso de:
 - Python 3.7 o superior
 - Django 3.0.4
 - suprise
+- selenium
 - pandas
 - bs4 (beautifulsoup)
 
