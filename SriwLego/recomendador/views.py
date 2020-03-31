@@ -147,6 +147,9 @@ def recomendador(request):
     usuario_actual = User.objects.get(username = request.user)
     productos = recomendacion(usuario_actual)
     lista = productos[0][0:10]
+    lista2 = productos[1][0:5]
+    print(lista)
+    print(lista2)
     n = 1
     for prod in lista:
         prod["producto"].n = n
