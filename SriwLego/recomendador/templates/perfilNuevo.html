@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+    
+    <title>Ips</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <div class="card-header">
+                        Breve encuesta para perfilar usuarios nuevos
+                    </div>
+                    <div class="card-body">
+                        <form method="POST">
+                          {% csrf_token%}
+                            <div class="form-group">
+                                <label>* De 0 a 10 que tanto te gusta la categoria Architecture:</label>
+                                <input id="architecture" name="architecture" type="number" required
+                                    class="form-control"
+                                    min="0" max="10"
+                                    />
+                            </div>
+                            <div class="form-group">
+                                <label>* De 0 a 10 que tanto te gusta la categoria City:</label>
+                                <input id="city" name="city" type="number" required
+                                    class="form-control"
+                                    min="0" max="10"
+                                    />
+                            </div>
+                            <div class="form-group">
+                                <label>* De 0 a 10 que tanto te gusta la categoria Friends:</label>
+                                <input id="friends" name="friends" type="number" required
+                                    class="form-control"
+                                    min="0" max="10"
+                                    />
+                            </div>
+                            <div class="form-group">
+                                <label>* De 0 a 10 que tanto te gusta la categoria Batman:</label>
+                                <input id="batman" name="batman" type="number" required
+                                    class="form-control"
+                                    min="0" max="10"
+                                    />
+                            </div>
+                            <div class="form-group">
+                                <label>* De 0 a 10 que tanto te gusta la categoria Minecraft:</label>
+                                <input id="minecraft" name="minecraft" type="number" required
+                                    class="form-control"
+                                    min="0" max="10"
+                                    />
+                            </div>
+                            <div class="form-group">
+                                <label>* Cuanto estaria dispuesto a pagar en promedio por un producto en $USD:</label>
+                                <input id="precio" name="precio" type="number" required
+                                    class="form-control"
+                                    min="0"
+                                    />
+                            </div>
+                            <div class="form-group">
+                                <label>* Aproximadamente cuantas piezas en promedio le gusta el producto:</label>
+                                <input id="piezas" name="piezas" type="number" required
+                                    class="form-control"
+                                    min="0"
+                                    />
+                            </div>
+                            <div class="form-group row">
+                              <div class="col-sm-12 d-flex justify-content-center">
+                                <button type="submit" class="btn btn-primary">Enviar</button>
+                              </div>
+                            </div>
+                        </form>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+</body>
+</html>
