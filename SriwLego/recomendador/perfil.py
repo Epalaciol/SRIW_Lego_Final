@@ -27,8 +27,17 @@ def actualizar_perfil(usuario):
     batman = wgm.batman.sum()/divisor_cat
 
     #Se calculan los perfiles para el precio y el numero de piezas
-    precio = wgm.Precio.sum()/wgm.Calificacion.sum()
-    numero_piezas = wgm.nPiezas.sum()/wgm.Calificacion.sum() 
+    productos = Producto.objects.all()
+    
+    pm = pd.DataFrame(columns=["Precio","nPiezas"])
+    for pro in productos:
+        pm = pm.append({"Precio":pro.precio, "nPiezas":pro.nPiezas},ignore_index=True)
+
+    precio_aux = wgm.Precio.sum()/wgm.Calificacion.sum()
+    numero_piezas_aux = wgm.nPiezas.sum()/wgm.Calificacion.sum() 
+    precio = ((precio_aux-pm.Precio.min())/(pm.Precio.max()-pm.Precio.min()))
+    nPiezas = ((numero_piezas_aux-pm.nPiezas.min())/(pm.nPiezas.max()-pm.nPiezas.min()))
+
     try:
         perfil_viejo = Perfil.objects.get(usuario_id= usuario.id)
         perfil_viejo.architecture = architecture
@@ -37,7 +46,7 @@ def actualizar_perfil(usuario):
         perfil_viejo.minecraft = minecraft
         perfil_viejo.batman = batman
         perfil_viejo.precio = precio
-        perfil_viejo.nPiezas = numero_piezas
+        perfil_viejo.nPiezas = nPiezas
         perfil_viejo.save()
     except Perfil.DoesNotExist as e:
-        Perfil.objects.create(usuario=usuario,architecture=architecture,city=city,friends=friends,minecraft=minecraft,batman=batman,precio=precio,nPiezas=numero_piezas)
+        Perfil.objects.create(usuario=usuario,architecture=architecture,city=city,friends=friends,minecraft=minecraft,batman=batman,precio=precio,nPiezas=nPiezas)

@@ -12,7 +12,6 @@ def recomendar_contenido (usuario):
     
     
 
-    print(wgm)
     productos_rec = []
     return productos_rec 
 

@@ -30,12 +30,11 @@ def indexView(request):
             
 
     prod = Producto.objects.all().filter(estado=True)
-    
+
     for producto in prod:
         try:
             calificacion_vieja = Calificacion.objects.get(usuario_id= usuario_actual.id, producto_id = producto.idProducto)
             producto.calificacion_vieja = calificacion_vieja.calificacion
-            
         except Calificacion.DoesNotExist as e:
             producto.calificacion_vieja = '-'
             
