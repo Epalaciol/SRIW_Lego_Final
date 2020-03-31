@@ -7,6 +7,7 @@ Para su instalancion es necesario el uso de:
 - Django 3.0.4
 - suprise
 - selenium
+- firefox
 - pandas
 - bs4 (beautifulsoup)
 
