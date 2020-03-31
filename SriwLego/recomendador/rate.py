@@ -9,8 +9,6 @@ def recomendacion(usuario):
     return [recomendaciones_colaborativo,recomendaciones_contenido]
 
 def recomendar_contenido (usuario):
-    
-    
 
     productos_rec = []
     return productos_rec 

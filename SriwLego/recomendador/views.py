@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
-
+import pandas as pd
 from datetime import date
 from django.shortcuts import render, redirect
 from django.db import IntegrityError
@@ -10,7 +10,7 @@ from django.shortcuts import HttpResponseRedirect
 from django.contrib.auth import logout
 from recomendador.models import Producto, Calificacion, Perfil
 from recomendador.rate import recomendacion
-from recomendador.perfil import actualizar_perfil
+from recomendador.perfil import actualizar_perfil, crear_perfil
 
 # Create your views here.
 
@@ -27,18 +27,16 @@ def indexView(request):
                 calificacion_vieja.save()
             except Calificacion.DoesNotExist as e:
                 Calificacion.objects.create(producto = producto_obj, calificacion= calificacion_usuario, usuario = usuario_actual)
+            actualizar_perfil(usuario_actual)
         else:
-            try:
-                perfil = Perfil.objects.get(usuario_id= usuario_actual.id)
-            except Perfil.DoesNotExist as e:
-                Perfil.objects.create(usuario = usuario_actual,
-                architecture = request.POST.get("architecture"),
-                city = request.POST.get("city"),
-                friends = request.POST.get("friends"),
-                batman = request.POST.get("batman"),
-                minecraft = request.POST.get("minecraft"),
-                precio = request.POST.get("precio"),
-                nPiezas = request.POST.get("piezas"))
+            crear_perfil(usuario_actual,
+                        float(request.POST.get("architecture")),
+                        float(request.POST.get("city")),
+                        float(request.POST.get("friends")),
+                        float(request.POST.get("batman")),
+                        float(request.POST.get("minecraft")),
+                        float(request.POST.get("precio")),
+                        float(request.POST.get("piezas")))
             
     prod = Producto.objects.all().filter(estado=True)
 
