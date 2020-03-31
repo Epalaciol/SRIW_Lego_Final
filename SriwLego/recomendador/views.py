@@ -8,8 +8,9 @@ from django.contrib.auth.models import User
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import HttpResponseRedirect
 from django.contrib.auth import logout
-from recomendador.models import Producto, Calificacion
+from recomendador.models import Producto, Calificacion, Perfil
 from recomendador.rate import recomendacion
+from recomendador.perfil import actualizar_perfil
 
 # Create your views here.
 
@@ -25,6 +26,7 @@ def indexView(request):
             calificacion_vieja.save()
         except Calificacion.DoesNotExist as e:
             Calificacion.objects.create(producto = producto_obj, calificacion= calificacion_usuario, usuario = usuario_actual)
+        actualizar_perfil(usuario_actual)
             
 
     prod = Producto.objects.all().filter(estado=True)
@@ -60,8 +62,9 @@ def register(request):
 def recomendador(request):
     usuario_actual = User.objects.get(username = request.user)
     productos = recomendacion(usuario_actual)
-    return render(request, "recomendacion.html", {'productos' : productos[0:5]})
-
+    return render(request, "recomendacion.html", {'productos' : productos[0][0:5]})
 
 def perfil(request):
-    return render(request, "perfil.html")
+    usuario_actual = User.objects.get(username = request.user)
+    perfil = Perfil.objects.get(usuario_id = usuario_actual.id)
+    return render(request, "perfil.html",{'perfil':perfil})

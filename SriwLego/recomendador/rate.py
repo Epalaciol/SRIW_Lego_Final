@@ -1,9 +1,22 @@
 import pandas as pd
 from surprise import Dataset, Reader, SVD
 from surprise.model_selection import GridSearchCV
-from recomendador.models import Producto, Calificacion
+from recomendador.models import Producto, Calificacion, Perfil
 
 def recomendacion(usuario):
+    recomendaciones_colaborativo = recomendar_colaborativo(usuario)
+    recomendaciones_contenido = recomendar_contenido(usuario)
+    return [recomendaciones_colaborativo,recomendaciones_contenido]
+
+def recomendar_contenido (usuario):
+    
+    
+
+    print(wgm)
+    productos_rec = []
+    return productos_rec 
+
+def recomendar_colaborativo (usuario):
     array = []
     for rate in Calificacion.objects.all():
         array.append([rate.usuario_id, rate.producto_id, rate.calificacion])

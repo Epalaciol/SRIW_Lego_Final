@@ -35,13 +35,13 @@ class Perfil(models.Model):
         settings.AUTH_USER_MODEL,
         on_delete=models.CASCADE,
     )
-    architecture = models.IntegerField()
-    city = models.IntegerField()
-    friends = models.IntegerField()
-    batman = models.IntegerField()
-    minecraft = models.IntegerField()
+    architecture = models.FloatField()
+    city = models.FloatField()
+    friends = models.FloatField()
+    batman = models.FloatField()
+    minecraft = models.FloatField()
     precio = models.FloatField()
-    nPiezas = models.IntegerField()
+    nPiezas = models.FloatField()
 
 
 #Clase que asocia el producto el usuario y la calificacion otorgada
