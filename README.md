@@ -1,6 +1,11 @@
 # SRIW-Recomendador
 Sistema de recomendacion de Legos
 
+## Integrantes
+Esteban palacio	            epalaciol@unal.edu.co
+Alejandro Jiménez Franco	aljimenezfr@unal.edu.co
+Jorge Eliecer Miranda	    jemirandas@unal.edu.co
+Daniel Arango Villegas	    daarangovi@unal.edu.co
 
 Para su instalancion es necesario el uso de:
 - Python 3.7 o superior
